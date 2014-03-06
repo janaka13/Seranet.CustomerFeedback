@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Login</title>
+    <script src="../Scripts/angular.min.js"></script>
+    <script src="../Scripts/jquery.js"></script>
+    <script src="scripts/login.js"></script>
+    <script src="../css/bootstrap/js/bootstrap.min.js"></script>
+    <link href="../css/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+
+    <style type="text/css">
+        .table {
+            width: 60%;
+            margin: auto;
+        }
+
+            .table th, .table td {
+                border-top: 0px;
+            }
+
+        .btn-small {
+            padding: 0px 6px;
+            font-size: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="jumbotron">
+
+                <!--Content Header-->
+                <div class="text-center">
+                    <h3>99X Customer Feedback Login</h3>
+                </div>
+
+                <div class="hero-unit">
+
+                    <div ng-controller="LoginController" ng-app>
+
+                        <table class="table">
+                            <!--Username Field-->
+                            <tr>
+                                <td>User Name</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" ng-model="usernameText" size="30">
+                                </td>
+                            </tr>
+                            
+                            <!--Password Field-->
+                            <tr>
+                                <td class="span3">Password</td>
+                                <td class="span1">:</td>
+                                <td>
+                                    <input type="password" ng-model="passwordText" size="30">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="3">
+                                    <!--Login button-->
+                                    <div class="text-right">
+                                        <input class="loginButton" type="button" value="Login" ng-click="login()">
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

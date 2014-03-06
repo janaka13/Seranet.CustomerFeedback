@@ -1,0 +1,63 @@
+﻿<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" data-ng-app="appLogin">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+
+    <title>Customer Feedback</title>
+
+</head>
+<body>
+    <div class="page-wrap">
+        <div class="main">
+            <div class="outer">
+                <div class="wraptocenter">
+                    <h3 class="title">Customer Feedback</h3>
+                    <hr align="center" class="hrcentered" />
+                    <br />
+                    <h3 class="sub">Sign In</h3>
+                    <div data-ng-controller="LoginController">
+                        <input type="text" placeholder="Username" data-ng-model="usernameText" size="30">
+                        <input type="password" placeholder="Password" data-ng-model="passwordText" size="30">
+
+                        <div class="text-right">
+                            <input class="" id="loginButton" type="button" value="Login" data-ng-click="login()">
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+        <div>
+            <hr class="hrfooter" />
+            <div class="text-center">
+                <h3 class="lighter">99X Technology © 2014</h3>
+            </div>
+        </div>
+    </footer>
+    <link href="css/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link rel="stylesheet" href="css/toastr.css" />
+    <link href="css/login.css" rel="stylesheet" media="screen" />
+
+    <!-- 3rd party libraries -->
+    <script src="Scripts/angular.min.js"></script>
+    <script src="Scripts/jquery.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="Scripts/toastr.js"></script>
+
+    <!-- App libraries -->
+    <script src="Login/Scripts/app/main.js"></script>
+    <script src="Login/Scripts/app/logger.js"></script>
+    <script src="Login/Scripts/app/LoginController.js"></script>
+</body>
+
+</html>

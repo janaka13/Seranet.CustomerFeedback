@@ -1,0 +1,134 @@
+﻿<div class="container">
+    <!--Content Header-->
+    <div class="text-center" data-ng-controller="ViewController" data-ng-init="search()">
+        <div class='wrap1'>
+            <div class="wrap2">
+                <div class="wrap2">
+                        <div class='element1'>
+                            <h3 class="light">Customer Feedback - </h3>
+                        </div>
+                        <div class='element1'>
+                            <h3 class="heavy">View</h3>
+                        </div>
+                </div>
+                <div class="wrap3">
+                    <div class='element2'>
+                        <input id="projectFilter" placeholder="Project" type="text" data-ng-model="projectText" data-ng-change="search()" size="30" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div ng-switch on="loading">
+            <span ng-switch-when="no">
+                <div ng-switch on="selection">
+
+                    <span ng-switch-when="all">
+                        <div>
+                            <table class="table" id="viewTable">
+                                <thead>
+                                    <tr>
+                                        <th style="display: none;"><a href="" ng-click="reverse = predicate == 'appraisal_id' && !reverse; predicate = 'appraisal_id'">Appraisal ID</a></th>
+                                        <th><div ng-click="reverse = predicate == 'project'&& !reverse; predicate = 'project'">Project Name</div></th>
+                                        <th><div ng-click="reverse = predicate == 'year'&& !reverse; predicate = 'year'">Year</div></th>
+                                        <th><div ng-click="reverse = predicate == 'type'&& !reverse; predicate = 'type'">Type</div></th>
+                                        <th><div ng-click="reverse = predicate == 'customer'&& !reverse; predicate = 'customer'">Customer Mail</div></th>
+                                        <th>View</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng:repeat="appraisal in pagedItems[currentPage] | orderBy:predicate:reverse">
+                                        <td style="display: none;">{{appraisal.appraisal_id}}</td>
+                                        <td>{{appraisal.project}}</td>
+                                        <td>{{appraisal.year}}</td>
+                                        <td>{{appraisal.type}}</td>
+                                        <td>{{appraisal.customer}}</td>
+                                        <td>
+                                            <div ng-switch on="appraisal.status">
+                                                <span ng-switch-when="0">
+                                                    <a href="" ng-click="viewApp(appraisal.appraisal_id, appraisal.status)">View</a>
+                                                    <!--<input class="btn-primary" ng-click="viewApp(appraisal.appraisal_id, appraisal.status)" type="submit" value="View" />-->
+                                                </span>
+                                                <span ng-switch-when="1">
+                                                    Not Submitted
+                                                </span>
+                                                <span ng-switch-when="2">
+                                                    Not Submitted
+                                                </span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+
+                            <div class="pagination pull-right">
+                                <ul>
+                                    <li ng-class="{disabled: currentPage == 0}">
+                                        <a href ng-click="prevPage()">« Prev</a>
+                                    </li>
+                                    <li ng-repeat="n in range(allPages)"
+                                        ng-class="{active: n == currentPage}"
+                                        ng-click="setPage()">
+                                        <a href ng-bind="n + 1">1</a>
+                                    </li>
+                                    <li ng-class="{disabled: currentPage == pagedItems.length - 1}">
+                                        <a href ng-click="nextPage()">Next »</a>
+                                    </li>
+                                </ul>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+                    </span>
+
+                    <span ng-switch-when="selected">
+                        <div class="text-left">
+                            <input type="button" ng-click="backToList()" value="Back" />
+                        </div>
+                        <hr />
+
+                        <table class="table" id="selectedTable">
+                            <caption>
+                                <h3 class="middle">Appraisal ID - {{currentAppraisal.appraisal_id}} for {{currentAppraisal.appraisal_year}} - {{currentAppraisal.appraisal_type}}</h3>
+                            </caption>
+                            <tr>
+                                <th>Criteria</th>
+                                <th ng-repeat="employee in currentEvaluations">{{ employee.employee_name }}</th>
+                            </tr>
+                            <tr ng-repeat="row in Ratings ">
+                                <td>{{ row.criteria }}</td>
+                                <td ng-repeat="emp in row.emplist">
+                                    {{emp.rate}}
+                                    <div>
+                                        {{emp.additional}}
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                        <input type="button" onclick="toExcel('selectedTable', 'appraisal')" value="Export to Excel">
+
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                    </span>
+
+                </div>
+            </span>
+            <span ng-switch-when="yes">
+                <div class="ball"></div>
+                <div class="ball1"></div>
+            </span>
+
+        </div>
+    </div>
+
+</div>
+
+<link href="css/viewForm.css" rel="stylesheet">

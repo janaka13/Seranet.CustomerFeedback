@@ -1,0 +1,112 @@
+﻿.container {
+    width: 90%;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid #EDEDED;
+    text-align: left;
+    border-right: 1px solid #EDEDED;
+}
+
+    .table td {
+        border-bottom: 1px solid #EDEDED;
+        border-top: 1px solid #EDEDED;
+        font-size:13px;
+    }
+
+    .table th {
+       
+        background-color: #2e2b2a;
+        border-bottom: 1px solid #2e2b2a;
+        color: white;
+        font-size:20px;
+        font-family:Calibri;
+         font-weight: normal !important;
+    }
+
+    .table tr:nth-of-type(even) {
+        background-color: #EDEDED;
+    }
+
+.wrap1 {
+    width: 100%;
+    display: table;
+    border-spacing: 4px;
+}
+
+.wrap2 {
+    width: 75%;
+    display: table-cell;
+    text-align: left;
+    border-spacing: 4px;
+    white-space: nowrap;
+}
+
+.wrap3 {
+    width: 25%;
+    display: table-cell;
+    text-align: right;
+    border-spacing: 4px;
+}
+
+.element1 {
+    text-align: left;
+    width: auto;
+    display: table-cell;
+}
+
+.element2 {
+    text-align: right;
+    width: auto;
+    display: table-cell;
+}
+
+h3.lighter {
+    font-size: x-small;
+    font-weight: bold;
+    color: #808080;
+    page-break-after: avoid;
+}
+
+h3.light {
+    font-size: 30px;
+    font-weight: normal;
+    color: #a7a29e;
+    page-break-after: avoid;
+    font-family:Calibri;
+}
+
+h3.heavy {
+    font-size: x-large;
+    font-weight: bold;
+    color: #2e2b2a;
+    page-break-after: avoid;
+}
+
+h3.middle {
+    font-size: 16px;
+    font-weight: normal;
+    color: #2e2a2a;
+    display:block;
+}
+
+.arrow-up {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+}
+
+#projectFilter {
+    margin-left:80px;
+}

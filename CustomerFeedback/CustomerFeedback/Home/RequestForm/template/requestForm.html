@@ -1,0 +1,123 @@
+﻿<div class="container" data-ng-controller="RequestController" data-ng-init="retrievedata()">
+    <div class='wrap1'>
+        <div class="wrap2">
+            <div class='element1'>
+                <h3 class="light">Customer Feedback - </h3>
+            </div>
+            <div class='element1'>
+                <h3 class="heavy">Request</h3>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="outer">
+        <div class="wraptocenter">
+            <div>
+
+                <div id="question" style="display:none; cursor: default">
+                    <h3>Do you want to proceed ? Appraisals to be saved : {{appraisalToSend}}</h3>
+                    <input type="button" id="yes" value="Yes" />
+                    <input type="button" id="no" value="No" />
+                </div>
+
+                <table class="table1 table">
+                    <!--Drop down menue for projects which loaded on page load-->
+                    <tr>
+                        <th class="span3">Select the Project</th>
+                        <th class="span1">:</th>
+                        <th>
+                            <select data-ng-model="project" data-ng-options="item.projectName for item in projects" data-ng-change="updateFields()">
+                                <option style="display:none" value="">Select a Project</option>
+                            </select>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th>For the Year</th>
+                        <th>:</th>
+                        <th>
+                            <input type="number" data-ng-model="yearText" size="30"
+                                   placeholder="enter the corresponding year" />
+
+                            <select data-ng-model="duration" data-ng-options="item.durationType for item in durations" data-ng-change="changeDuration()">
+                                <option style="display:none" value="">Select appraisal type</option>
+                            </select>
+                        </th>
+                    </tr>
+
+                    <!--List of team members that can be added and removed and automatically complete when selected project changes-->
+                    <tr>
+                        <th>Team Members</th>
+                        <th>:</th>
+                        <td>
+                            <form data-ng-submit="removeEmployee()">
+                                <ul class="ul inline">
+                                    <li data-ng-repeat="employee in employeesNames">
+                                        {{employee.employeename}}
+                                        <a data-ng-click="employeesNames.splice($index, 1)">
+                                            <input class="btn btn-small" type="submit" value="X" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </form>
+
+                            <form class="form-inline" data-ng-submit="addEmployees()">
+                                <input type="text" data-ng-model="employeeText" size="30" list="empNames"
+                                       placeholder="Add an employee" />
+                                <input class="pure-button" type="submit" value="+" />
+                            </form>
+
+                            <datalist id="empNames">
+                                <option data-ng-repeat="emp in allEmployees" value="{{emp}}">
+                            </datalist>
+
+                        </td>
+                    </tr>
+
+                    <!--list of customer mail addresses that can be added and removed and automatically complete when selected project changes-->
+                    <tr>
+                        <th>Customer Email Addresses</th>
+                        <th>:</th>
+                        <td class="ttd">
+                            <form data-ng-submit="removeCustomer()">
+                                <ul class="ul inline">
+                                    <li data-ng-repeat="customer in customerMails">
+                                        {{customer.customermail}}
+                                        <a data-ng-click="customerMails.splice($index, 1)">
+                                            <input class="btn btn-small" type="submit" value="X" />
+                                        </a>
+                                    </li>
+                                </ul>
+                            </form>
+                            <form class="form-inline" data-ng-submit="addCustomers()">
+                                <input type="text" data-ng-model="customerText" size="30"
+                                       placeholder="Add an email of customer" />
+                                <input class="pure-button" type="submit" value="+" />
+                            </form>
+                        </td>
+                    </tr>
+
+                    <!--Text area to enter an optional message to send via mail-->
+                    <tr>
+                        <th>Additional Message</th>
+                        <th>:</th>
+                        <th>
+                            <textarea data-ng-model="mailText"></textarea>
+                        </th>
+                    </tr>
+
+                </table>
+
+                <!--Submit button-->
+                <div class="text-right">
+                    <form data-ng-submit="submit()">
+                        <input class="button-submit pure-button" id="submitButton" type="submit" value="Submit" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="css/requestForm.css">

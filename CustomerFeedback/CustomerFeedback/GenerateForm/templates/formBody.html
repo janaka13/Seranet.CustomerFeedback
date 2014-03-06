@@ -1,0 +1,205 @@
+﻿<div class="container1" id="fbformctrl" ng-controller="GenerateFormCtrl">
+    <div ng-show="!DataLoaded">
+        <div class="text-center">
+            <br />
+            <br />
+            <div class="ball"></div>
+            <div class="ball1"></div>
+        </div>
+    </div>
+    <div ng-show="DataLoaded">
+        <div class='wrap1'>
+            <div class="wrap2 nameEmp">
+                <div class='element1'>
+                    <h3 class="empName">Team member Appraisal - </h3>
+                </div>
+                <div class='element1'>
+                    <h4>{{ EmpEvaluation.employee_name }}</h4>
+                </div>
+            </div>
+            <div class="wrap3">
+                <div class='element2'>
+                    <h3 class="middle year">{{ appraisalData.appraisal_year }} {{ appraisalData.appraisal_type }}</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <!--
+        <div class="btn-group-vertical">
+            <button class="btn btn-primary" ng-model="EmpEvaluation.employee_name" btn-radio="emp.employee_name" ng-repeat="emp in Ratings" style="width: 150px;">{{ emp.employee_name }}</button>
+        </div>
+
+        -->
+
+
+
+        <div class='wrap1 mainContent'>
+
+            <div class="caption_criteria">Criteria</div>
+            <div class="wrap4">
+
+                <div ng-repeat="cri in EmpEvaluation.rating" class="singleCriteria col1" ng-if="$index <= devideFactor">
+                    <!-- generating criteria liat -->
+
+                    <div class="element1">
+                        <div class="popover_compare singleCricInline">
+                            <div class="criteria_name cricTitleField">{{ cri.criteria_caption }}</div>
+                            <div ng-switch on="cri.criteria_type" class="cricTitleField">
+                                <div class="popover_data">
+                                    <pop-over></pop-over>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="element1">
+                        <div class="inputField singleCricInline">
+                            <div ng-switch on="cri.criteria_type" ng-controller="SingleCell">
+
+                                <!-- criteria type 1 selecting drop down -->
+
+                                <div ng-switch-when="1" class="dropdownField">
+                                    <div ng-controller="selectRatings">
+
+                                        <div>
+                                            <div class="previewInline">
+                                            </div>
+                                            <div class="collapsedWindowDrop">
+                                                <select-popup></select-popup>
+                                                <br />
+                                            </div>
+                                            <div>
+                                                <!--tooltip-placement="right" tooltip="You have additional comments!"-->
+                                                <label>
+                                                    <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional commnets" class="showCommentBox" />
+                                                    Additional commnets
+                                                </label>
+
+                                            </div>
+                                            <textarea ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-show="showCommentBox" ng-change="optionalField()"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- criteria type commenting -->
+                                <div ng-switch-when="2" class="textInputField">
+                                    <div>
+                                        <div>
+                                            <textarea ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-change="optionalField()"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="caption_criteria">Criteria</div>
+            <div class="wrap4">
+
+                <div ng-repeat="cri in EmpEvaluation.rating" class="singleCriteria col1" ng-if="$index > devideFactor">
+                    <!-- generating criteria liat -->
+
+
+                    <div class="element1">
+                        <div class="popover_compare singleCricInline">
+                            <div class="criteria_name cricTitleField">{{ cri.criteria_caption }}</div>
+                            <div ng-switch on="cri.criteria_type" class="cricTitleField">
+                                <div class="popover_data">
+                                    <pop-over></pop-over>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="element1">
+                        <div class="inputField singleCricInline">
+                            <div ng-switch on="cri.criteria_type" ng-controller="SingleCell">
+
+                                <!-- criteria type 1 selecting drop down -->
+
+                                <div ng-switch-when="1" class="dropdownField">
+                                    <div ng-controller="selectRatings">
+
+                                        <div>
+                                            <div class="previewInline">
+                                            </div>
+                                            <div class="collapsedWindowDrop">
+                                                <select-popup></select-popup>
+                                                <br />
+                                            </div>
+                                            <div>
+                                                <!--tooltip-placement="right" tooltip="You have additional comments!"-->
+                                                <label>
+                                                    <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional commnets" class="showCommentBox" />
+                                                    Additional commnets
+                                                </label>
+
+                                            </div>
+                                            <textarea ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-show="showCommentBox" ng-change="optionalField()" ng-change="optionalField()"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- criteria type commenting -->
+                                <div ng-switch-when="2" class="textInputField">
+                                    <div>
+                                        <div>
+                                            <textarea ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-change="stateIndicate()"></textarea>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="wrap5">
+                <div class='element3'>
+
+                    <div id="nameListWidget">
+                        <h4>Names Of Employees</h4>
+                        <div class="btn-group">
+                            <ul id="EmpList">
+                                <li ng-repeat="c in Ratings">
+                                    <a class="empAncor"><div ng-click="changeRating(c.evaluation_id)" id="empName_{{ c.evaluation_id }}" class="employeeNames"><div class="emp_fullName">{{ c.employee_name }}</div></div></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="text-right submitForm">
+            <form data-ng-submit="submit()">
+                <input class="gray" id="save" type="button" ng-click="save()" value="Submit" disabled />
+                <input class="yellow" id="submit" type="button" value="Save" ng-click="saveToDB()" />
+                <button id="jerk" type="button" ng-click="clickJerk()"></button>
+            </form>
+        </div>
+
+
+
+
+        <script type="text/javascript">
+
+            $('.tooltip2Comment').tooltip();
+        </script>
+
+    </div>
+
+</div>

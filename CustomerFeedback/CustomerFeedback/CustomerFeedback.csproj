@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{76122D11-482C-4DAD-84AA-AC23259155CB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CustomerFeedback</RootNamespace>
+    <AssemblyName>CustomerFeedback</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort>44300</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication>enabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Breeze.ContextProvider">
+      <HintPath>..\packages\Breeze.Server.ContextProvider.1.4.6\lib\Breeze.ContextProvider.dll</HintPath>
+    </Reference>
+    <Reference Include="Breeze.ContextProvider.EF6">
+      <HintPath>..\packages\Breeze.Server.ContextProvider.EF6.1.4.6\lib\Breeze.ContextProvider.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="Breeze.WebApi2">
+      <HintPath>..\packages\Breeze.Server.WebApi2.1.4.6\lib\Breeze.WebApi2.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Data.Edm, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.Edm.5.6.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Data.OData.5.6.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\packages\RestSharp.104.4.0\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Spatial, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Spatial.5.6.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http.OData">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.OData.5.0.0\lib\net45\System.Web.Http.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.5.3\lib\net40\WebActivator.dll</HintPath>
+    </Reference>
+    <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap-combined.min.css" />
+    <Content Include="css\bootstrap\css\bootstrap-combined.min.css" />
+    <Content Include="css\bootstrap\css\bootstrap-responsive.css" />
+    <Content Include="css\bootstrap\css\bootstrap-responsive.min.css" />
+    <Content Include="css\bootstrap\css\bootstrap.css" />
+    <Content Include="css\bootstrap\css\bootstrap.min.css" />
+    <Content Include="css\bootstrap\img\glyphicons-halflings-white.png" />
+    <Content Include="css\bootstrap\img\glyphicons-halflings.png" />
+    <Content Include="css\bootstrap\js\bootstrap.js" />
+    <Content Include="css\bootstrap\js\bootstrap.min.js" />
+    <Content Include="css\dropkick.css" />
+    <Content Include="css\feedbackForm.css" />
+    <Content Include="css\formBody.css" />
+    <Content Include="css\home.css" />
+    <Content Include="css\loading.css" />
+    <Content Include="css\login.css" />
+    <Content Include="css\requestForm.css" />
+    <Content Include="css\toastr.css" />
+    <Content Include="css\viewForm.css" />
+    <Content Include="FeedBackForm.html" />
+    <Content Include="GenerateForm\Scripts\app\GenerateFormController.js" />
+    <Content Include="GenerateForm\Scripts\app\GenerateFormDataserviceAppraisal.js" />
+    <Content Include="GenerateForm\Scripts\app\initAng.js" />
+    <Content Include="GenerateForm\Scripts\app\logger.js" />
+    <Content Include="GenerateForm\Scripts\app\main.js" />
+    <Content Include="GenerateForm\Scripts\app\validate.js" />
+    <Content Include="GenerateForm\Scripts\checkState.js" />
+    <Content Include="GenerateForm\templates\formBody.html" />
+    <Content Include="GenerateForm\templates\formFilled.html" />
+    <Content Include="GenerateForm\templates\loading.html" />
+    <Content Include="GenerateForm\templates\Validate.html" />
+    <Content Include="GenerateForm\templates\validateFailed.html" />
+    <Content Include="Global.asax" />
+    <Content Include="Home.html" />
+    <Content Include="Home\RequestForm\Scripts\app\logger.js" />
+    <Content Include="Home\RequestForm\Scripts\app\RequestFormController.js" />
+    <Content Include="Home\RequestForm\Scripts\app\RequestFormDataservice.js" />
+    <Content Include="Home\RequestForm\Scripts\app\RequestFormDataserviceAppraisal.js" />
+    <Content Include="Home\RequestForm\Scripts\app\RequestFormDataserviceEvaluation.js" />
+    <Content Include="Home\RequestForm\template\requestForm.html" />
+    <Content Include="Home\Scripts\app\logout.js" />
+    <Content Include="Home\Scripts\app\main.js" />
+    <Content Include="Home\ViewForm\Scripts\app\ExportExcel.js" />
+    <Content Include="Home\ViewForm\Scripts\app\logger.js" />
+    <Content Include="Home\ViewForm\Scripts\app\ViewFormController.js" />
+    <Content Include="Home\ViewForm\Scripts\app\ViewFormDataservice.js" />
+    <Content Include="Home\ViewForm\Scripts\app\ViewFormDataserviceAppraisal.js" />
+    <Content Include="Home\ViewForm\template\viewForm.html" />
+    <Content Include="img\compare.png" />
+    <Content Include="img\downArrow.png" />
+    <Content Include="img\loading.gif" />
+    <Content Include="Login.html" />
+    <Content Include="Login\Login.html" />
+    <Content Include="Login\Scripts\app\logger.js" />
+    <Content Include="Login\Scripts\app\LoginController.js" />
+    <Content Include="Login\Scripts\app\LoginDataService.js" />
+    <Content Include="Login\Scripts\app\main.js" />
+    <Content Include="Login\Scripts\login.js" />
+    <Content Include="Scripts\angular-route.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="css\bootstrap\css\bootstrap-combined.min" />
+    <None Include="Scripts\breeze.intellisense.js" />
+    <Content Include="Scripts\blockUI.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootstrapx-clickover.js" />
+    <Content Include="Scripts\breeze.debug.js" />
+    <Content Include="Scripts\breeze.min.js" />
+    <Content Include="Scripts\breeze.savequeuing.js" />
+    <Content Include="Scripts\dropkick.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\loading-overlay.min.js" />
+    <Content Include="Scripts\popover.js" />
+    <Content Include="Scripts\q.js" />
+    <Content Include="Scripts\q.min.js" />
+    <Content Include="Scripts\toastr.js" />
+    <Content Include="Scripts\ui-bootstrap-tpls-0.7.0.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BreezeWebApiConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AppraisalController.cs" />
+    <Compile Include="Controllers\CheckLogginStatusController.cs" />
+    <Compile Include="Controllers\CheckLoginController.cs" />
+    <Compile Include="Controllers\CheckStatusController.cs" />
+    <Compile Include="Controllers\CriteriaController.cs" />
+    <Compile Include="Controllers\CustomerFeedbackDbController.cs" />
+    <Compile Include="Controllers\EvaluationController.cs" />
+    <Compile Include="Controllers\LogoutController.cs" />
+    <Compile Include="Controllers\RatingController.cs" />
+    <Compile Include="Controllers\SendController.cs" />
+    <Compile Include="Controllers\SetViewController.cs" />
+    <Compile Include="Controllers\TemplateController.cs" />
+    <Compile Include="Controllers\TemplateStructureController.cs" />
+    <Compile Include="Controllers\validateAppraisalController.cs" />
+    <Compile Include="Filters\AuthUser.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Home\RequestForm\SendMail.cs" />
+    <Compile Include="Login\PasswordHash.cs" />
+    <Compile Include="Migrations\201312041247016_InitialCreate.cs" />
+    <Compile Include="Migrations\201312041247016_InitialCreate.Designer.cs">
+      <DependentUpon>201312041247016_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201312061120173_AddCriteriaType.cs" />
+    <Compile Include="Migrations\201312061120173_AddCriteriaType.Designer.cs">
+      <DependentUpon>201312061120173_AddCriteriaType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201312090554000_strEmpId.cs" />
+    <Compile Include="Migrations\201312090554000_strEmpId.Designer.cs">
+      <DependentUpon>201312090554000_strEmpId.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201312240810246_paramList.cs" />
+    <Compile Include="Migrations\201312240810246_paramList.Designer.cs">
+      <DependentUpon>201312240810246_paramList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201401060843367_Login.cs" />
+    <Compile Include="Migrations\201401060843367_Login.Designer.cs">
+      <DependentUpon>201401060843367_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201401100943512_is_viewd.cs" />
+    <Compile Include="Migrations\201401100943512_is_viewd.Designer.cs">
+      <DependentUpon>201401100943512_is_viewd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\AdminUser.cs" />
+    <Compile Include="Models\Appraisal.cs" />
+    <Compile Include="Models\Criteria.cs" />
+    <Compile Include="Models\CustomerFeedbackDbContext.cs" />
+    <Compile Include="Models\Evaluation.cs" />
+    <Compile Include="Models\invalidateParams.cs" />
+    <Compile Include="Models\paramList.cs" />
+    <Compile Include="Models\Rating.cs" />
+    <Compile Include="Models\Template.cs" />
+    <Compile Include="Models\TemplateStructure.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201312041247016_InitialCreate.resx">
+      <DependentUpon>201312041247016_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201312061120173_AddCriteriaType.resx">
+      <DependentUpon>201312061120173_AddCriteriaType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201312090554000_strEmpId.resx">
+      <DependentUpon>201312090554000_strEmpId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201312240810246_paramList.resx">
+      <DependentUpon>201312240810246_paramList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201401060843367_Login.resx">
+      <DependentUpon>201401060843367_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201401100943512_is_viewd.resx">
+      <DependentUpon>201401100943512_is_viewd.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53797</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:53797/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,116 @@
+﻿Html, body {
+    Padding: 0;
+    Margin: 0;
+    Height: 100%;
+}
+
+.container1 {
+    width: 100%;
+}
+
+.table th {
+    border-top: 0px solid #ddd;
+}
+
+.table td {
+    border-bottom: 0px solid #ddd;
+    border-top: 0px solid #ddd;
+}
+
+.nav1 {
+    background-color: #709fcf;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+    .nav1 li {
+        display: inline;
+        padding: 10px;
+    }
+
+.menu {
+    background-color: #709fcf;
+    width: 100%;
+    height: 45px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    margin: auto;
+    display: block;
+}
+
+    .menu ul {
+        margin: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 45px;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+        float: right;
+        position: relative;
+    }
+
+        .menu ul li {
+            float: left;
+            height: 45px;
+        }
+
+            .menu ul li a {
+                display: block;
+                text-decoration: none;
+                text-align: center;
+                height: 45px;
+                color: white;
+                padding: 10.5px 11px;
+                background-color: #709fcf;
+            }
+
+                .menu ul li a:visited {
+                    color: white;
+                }
+
+                .menu ul li a:hover, .menu ul li .current {
+                    color: white;
+                    background-color: #2e2a2a;
+                }
+
+h3.lighter {
+    font-size: x-small;
+    font-weight: bold;
+    color: #808080;
+    page-break-after: avoid;
+    orphans: 3;
+    widows: 3;
+}
+
+.hrfooter {
+    width: 100%;
+    color: #EDEDED;
+    background-color: #EDEDED;
+    border: 0px solid #EDEDED;
+    text-align: center;
+    margin: 0 auto;
+    height: 1px;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+    .page-wrap:after {
+        content: "";
+        display: block;
+    }
+
+    .site-footer, .page-wrap:after {
+        height: 50px;
+    }
+
+.site-footer {
+    background: white;
+}
