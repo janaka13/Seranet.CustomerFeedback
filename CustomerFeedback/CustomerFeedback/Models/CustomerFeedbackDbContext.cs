@@ -10,6 +10,15 @@ namespace CustomerFeedback.Models
 {
     public class CustomerFeedbackDbContext : DbContext
     {
+        public CustomerFeedbackDbContext() : base("CustomerFeedbackDbContext") 
+        {
+            //Database.SetInitializer<CustomerFeedbackDbContext>(new CreateDatabaseIfNotExists<CustomerFeedbackDbContext>());
+            //Database.SetInitializer<SchoolDBContext>(new DropCreateDatabaseIfModelChanges<SchoolDBContext>());
+            //Database.SetInitializer<SchoolDBContext>(new DropCreateDatabaseAlways<SchoolDBContext>());
+            //Database.SetInitializer<SchoolDBContext>(new SchoolDBInitializer());
+        }
+
+
         public DbSet<Appraisal> Appraisal { get; set; }
         public DbSet<Criteria> Criteria { get; set; }
         public DbSet<Evaluation> Evaluation { get; set; }
