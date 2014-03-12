@@ -1,0 +1,850 @@
+D:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+D:\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+D:\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+D:\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+D:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+D:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+D:\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+D:\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+D:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+D:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+D:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+D:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+D:\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+D:\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+D:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+D:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+D:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+D:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+D:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.initialmigration.resources
+D:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+J:\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+J:\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+J:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+J:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+J:\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+J:\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+J:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+J:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+J:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+J:\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+J:\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+J:\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+J:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+J:\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+J:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+J:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.initialmigration.resources
+J:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+J:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+J:\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.initialmigration.resources
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\WEB API\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.migration1.resources
+C:\Users\Acerr\Desktop\Temp\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Customer-Feedback\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\Merged\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+J:\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\Acerr\Desktop\CF\Now Git\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\HashniS\Desktop\CF\NowGit\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+C:\Users\HashniS\Desktop\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+C:\Users\HashniS\Desktop\CF\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\CF\POPOVER PROB\Hashini\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\Acerr\Desktop\FirstProject\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\LAST\customerfeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
