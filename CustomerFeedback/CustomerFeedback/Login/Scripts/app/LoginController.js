@@ -13,7 +13,7 @@
             
             if (data[1] === "1") {
                 logger.success("Validation Success");
-                window.location.assign("/Home.html");
+                window.location.assign("./Home.html");
             }
             else {
                 logger.error("Validation failed");
