@@ -19,8 +19,9 @@ namespace CustomerFeedback.Controllers
 
         public string Post([FromBody] AdminUser user)
         {
-            try
-            {
+            // let's not wrap the errors and hide them
+            //try
+            //{
                 using (var db = new CustomerFeedbackDbContext())
                 {
 
@@ -58,11 +59,11 @@ namespace CustomerFeedback.Controllers
                 }
                 return "0";
                 
-            }
-            catch (Exception e)
-            {
-                return "0";
-            }
+            //}
+            //catch (Exception e)
+            //{
+            //    return "0";
+            //}
 
         }
 
