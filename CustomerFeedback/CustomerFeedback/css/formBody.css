@@ -3,18 +3,43 @@
 
 .singleCriteria {
     margin-left:0px;
+    margin-bottom:20px;
+    padding-bottom:4px;
+    border-left:3px solid #cacaca;
+    padding-left:10px;
+    background:#FAFAFA;
+    padding-right:10px;
+    border-bottom:1px solid #ECECEC;
+    border-right:1px solid #ECECEC;
+    border-top:1px solid #ECECEC;
+}
+.singleCriteria textarea{
+    color:#000000;
+    padding:7px;
+    height:auto;
+    border:1px solid #cacaca !important;
+    box-shadow:none !important;
+}
+.singleCriteria select{
+    width:374px;
+    border-radius:0;
+    color:#000000;
+    padding:7px;
+    height:auto;
+    border:1px solid #cacaca !important;
 }
 
 .cricTitleField {
-    display:inline-table;
     font-family: 'Open Sans', sans-serif;
+    float:left;
 }
 
-.singleCricInline {
-    display:inline-table;
+.popover_compare  {
+    border-bottom:1px solid #ECECEC;
+    margin-bottom:10px;
 }
 
-.previewInline {
+.previewInline { 
     
    
 }
@@ -41,10 +66,7 @@
 }
 
 .inputField {
-    height:70px;
-    width: 230px;
-    position:relative;
-    right:100px;
+
 }
 
 .collapsedWindowDrop {
@@ -52,17 +74,21 @@
 }
 
 .popover_compare {
-    width:300px;
-    height:70px;
+
 }
 
 .criteria_name {
-    
+    color: #000000;
+    margin-right: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: arial;
+    margin-bottom:8px;
 }
 
 .collapsedWindowDrop {
     font-family: 'Open Sans', sans-serif !important;
-    width: 230px;
+    
 }
 
 .ratingDropDown {
@@ -71,11 +97,12 @@
 
 select[multiple], select[size] {
     height: 120px !important;
-    width: 230px !important;
+    
 }
 
 .textComment{
-    width: 215px !important;
+    width: 360px !important;
+    border-radius:3px;
 }
 
 #nameList {
@@ -91,14 +118,11 @@ select[multiple], select[size] {
 }
 
 .popover_content {
-    visibility:hidden;
-    width:10px;
-    height:10px;
+    display:none;
 }
 
 .comp_img {
-    height:25px;
-    width:25px;
+  
 }
  
 table {
@@ -131,10 +155,10 @@ table {
 
 #EmpList {
     list-style-type:none;
-    background-color : #F5F9F8;
+
     width:212px;
     padding:5px;
-    border:1px solid #cccccc;
+    border-top:3px solid #599FD0;
 }
 
     #EmpList li {
@@ -144,6 +168,8 @@ table {
 .empAncor {
     text-decoration:none;
     color:black;
+    display:block;
+    cursor:pointer;
 }
 
 .selected_emp {
@@ -164,27 +190,27 @@ table {
 
 
 .success_fin{
-border:1px solid #92c79a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #080808;
-background:#d6fddc;
+border:1px solid #0C9446;
+ -webkit-border-radius: 3px; 
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ font-size:14px;
+ font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #ffffff;
+background:#2ecc71;
  width:180px;
  text-align: center;
 }
 
 .success_fin:hover{
- border:1px solid #74b77d;
- background-color: #95c99d; background-image: -webkit-gradient(linear, left top, left bottom, from(#95c99d), to(#8bb41d));
- background-image: -webkit-linear-gradient(top, #95c99d, #8bb41d);
- background-image: -moz-linear-gradient(top, #95c99d, #8bb41d);
- background-image: -ms-linear-gradient(top, #95c99d, #8bb41d);
- background-image: -o-linear-gradient(top, #95c99d, #8bb41d);
- background-image: linear-gradient(to bottom, #95c99d, #8bb41d);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#95c99d, endColorstr=#8bb41d);
+ border:1px solid #0C9446;
+ background-color: #19AF59;
  width:180px;
  text-align: center;
 }
 
 
 .newbie{
-border:1px solid #ebb7b7; 
+border:1px solid #991B1B; 
 -webkit-border-radius: 3px; 
 -moz-border-radius: 3px;
 border-radius: 3px;
@@ -194,20 +220,15 @@ padding: 10px 10px 10px 10px;
 text-decoration:none; 
 display:inline-block;
 font-weight:normal; 
-color: #080808;
-background:#ffdbdb;
+color: #ffffff;
+background:#F36767;
  width:180px;
  text-align: center;
 }
 
 .newbie:hover{
- border:1px solid #e09494;
- background-color: #ecbbbb; background-image: -webkit-gradient(linear, left top, left bottom, from(#ecbbbb), to(#ffa4a4));
- background-image: -webkit-linear-gradient(top, #ecbbbb, #ffa4a4);
- background-image: -moz-linear-gradient(top, #ecbbbb, #ffa4a4);
- background-image: -ms-linear-gradient(top, #ecbbbb, #ffa4a4);
- background-image: -o-linear-gradient(top, #ecbbbb, #ffa4a4);
- background-image: linear-gradient(to bottom, #ecbbbb, #ffa4a4);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ecbbbb, endColorstr=#ffa4a4);
+ border:1px solid #991B1B;
+ background-color: #E74949; 
  width:180px;
  text-align: center;
 }
@@ -215,20 +236,15 @@ background:#ffdbdb;
 
 
 .intermideate{
-border:1px solid #f9f68a; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #080808;
-background:#fffed0;
+border:1px solid #f3c546; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #080808;
+background:#faf68f;
  width:180px;
  text-align: center;
 }
 
 .intermideate:hover{
  border:1px solid #f7f25f;
- background-color: #faf68f; background-image: -webkit-gradient(linear, left top, left bottom, from(#faf68f), to(#f3ed53));
- background-image: -webkit-linear-gradient(top, #faf68f, #f3ed53);
- background-image: -moz-linear-gradient(top, #faf68f, #f3ed53);
- background-image: -ms-linear-gradient(top, #faf68f, #f3ed53);
- background-image: -o-linear-gradient(top, #faf68f, #f3ed53);
- background-image: linear-gradient(to bottom, #faf68f, #f3ed53);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#faf68f, endColorstr=#f3ed53);
+ background-color: #faf68f;
  width:180px;
  text-align: center;
 }
@@ -241,7 +257,6 @@ background:#fffed0;
     font-weight:normal;
     font-size: 30px;
     font-family: Calibri;
-    margin-left:40px;
 }
 .nameEmp h4{
     font-weight:normal;
@@ -250,39 +265,66 @@ background:#fffed0;
 }
 
 .empName {
-    color:#a7a29e;
+    color:#000000;
+}
+.empName span{
+    color:#1DC538;
 }
 .year {
     font-weight:normal !important;
-    color:#729fd1 !important;
+    color:#1DC538 !important;
     margin-left:140px;
 }
 
 .mainContent {
-    padding:30px 40px 0;
-    overflow-x: hidden;
-    width:auto !important;
-    border-spacing:0 !important;
+    width:1200px !important;
+    margin:auto;
 }
 
 .submitForm input[type=button]{
     
     padding:5px 25px;
     margin-top:15px;
-    margin-right:8px;
 
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
     border-radius:3px;
 }
 .yellow {
-    
-    background:#f3c546;
-    border:1px solid #a0741e;
-    color:#684E0B;
+    background: #599fd0;
+    border: 1px solid #1E577F;
+    color: #ffffff;
+    padding:10px 35px !important;
 }
 .gray {
     background:#dedede;
     border:1px solid #a4a4a4;
     color:#a4a4a4;
+    padding:10px 35px !important;
+}
+
+.showCommentBox {
+    margin-top:-3px !important; 
+}
+.additionalComment {
+    display:block;
+    margin-top:10px;
+}
+
+.ratingDropDown {
+    margin:0;
+}
+
+.formUpper {
+    margin:15px auto !important;
+}
+
+
+.criterias{
+    font-weight:normal;
+    padding-bottom:10px;
+    border-bottom:3px solid #599FD0;
+   margin-top:10px;
+   height:20px;
+   margin-bottom:30px;
 }
