@@ -7,7 +7,10 @@
 .container1 {
     width: 100%;
 }
-
+.mainWrapper {
+    width:1200px !important;
+    margin:auto;
+}
 
 .outer {
     width: 100%;
@@ -31,9 +34,9 @@
     padding:10px;  
 }
 #validButton {
-    background:#f3c546;
-    border:1px solid #a0741e;
-    color:#684E0B;
+    background: #599fd0;
+    border: 1px solid #1E577F;
+    color: #ffffff;
     padding:8px 25px;
     margin-top:0px;
     margin-right:8px;
@@ -62,9 +65,10 @@ h3.titleWhite {
     font-weight: normal;
     color: #ffffff;
     font-family:Calibri;
-    margin:0 0 0 50px;
-   background-color: #709fcf;
-   width: 1370px;
+    background-color: #599fd0;
+    padding:10px 50px;
+    margin:auto;
+    width:1200px;
 }
 
 .hrfooter {
@@ -99,66 +103,49 @@ h3.titleWhite {
 
 .wrap1 {
     width: 100%;
-    display: table;
-    border-spacing: 4px;
 }
 
 .wrap2 {
-    width: 75%;
-    display: table-cell;
-    text-align: left;
-    border-spacing: 4px;
-    white-space: nowrap;
+   float:left;
 }
 
 .wrap3 {
-    width: 25%;
-    display: table-cell;
-    text-align: right;
-    border-spacing: 4px;    
-    white-space: nowrap;
+    float:right;
 }
 
 .wrap4 {
-    width: 35%;
-    display: table-cell;
-    text-align: left;
-    border-spacing: 4px;
+    float:left;
+    padding-right: 30px;
+    width: 399px;
+    padding-left: 10px;
 }
 
 .wrap5 {
-    width: 30%;
-    display: table-cell;
-    text-align: left;
-    border-spacing: 4px;
+    float:left;
+}
+
+.MainCri {
+    float:left;
+    margin-left:100px;
+    width: 878px;
 }
 
 .element1 {
     text-align: left;
-    width: auto;
-    display: table-cell;
+
 }
 
 .element2 {
     text-align: right;
-    width: auto;
-    display: table-cell;
 }
 
 .element3 {
     text-align: center;
-    width: auto;
-    display: table-cell;
+
 }
 .menu {
-    background-color: #709fcf;
+    background-color: #599fd0;
     width: 100%;
-    height: auto;
-    position: relative;
-    top: 0px;
-    right: 0px;
-    margin: auto;
-    display: block;
 }
 
 h3.light {
@@ -234,4 +221,13 @@ h3.middle {
 ul {
     padding: 0;
     margin: 0;
+}
+
+.validateButton {
+    margin-left:15px;
+}
+
+#nameListWidget h4{
+    text-align:left;
+    font-weight:normal;
 }
