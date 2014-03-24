@@ -7,6 +7,21 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
     var dataserviceAppraisalRequests = app.RequestFormDataserviceAppraisal;
     var logger = app.logger;
 
+
+    $.ajax({
+        type: 'POST',
+        url: 'api/CheckLogginStatus',
+        contentType: 'application/json;charset=utf-8',
+        async: false,
+        success: function (data) {
+            if (data == "0") {
+                logger.error("you are not logged in.");
+                window.location.assign("./Login.html");
+            }
+        }
+    });
+
+
     $scope.projects = [];
 
     $scope.employeesNames = [];
