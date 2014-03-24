@@ -108,7 +108,10 @@
                                     </div>
                                 </td>
                             </tr>
-
+                            <tr>
+                                <th>Total</th>
+                                <th ng-repeat="employee in currentEvaluations"></th>
+                            </tr>
                         </table>
 
                         <input type="button" onclick="toExcel('selectedTable', 'appraisal')" value="Export to Excel">
