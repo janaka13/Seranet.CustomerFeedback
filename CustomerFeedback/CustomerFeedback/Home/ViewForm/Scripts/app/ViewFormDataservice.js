@@ -75,10 +75,10 @@ app.ViewFormDataservice = (function (breeze, logger) {
             contentType: 'application/json;charset=utf-8',
             data: JSON.stringify(appId),
             success: function (data) {
-                logger.success("Appraisal set viewed");
+                //logger.success("Appraisal set viewed");
             },
             error: function () {
-                logger.error("Appraisal set viewed failed");
+                //logger.error("Appraisal set viewed failed");
             }
         });
     }

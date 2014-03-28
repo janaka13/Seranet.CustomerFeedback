@@ -56,7 +56,6 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 }
 
 
-                //****************
 
                 dSAppraisal.getEvaluationData()
             .then(function (data) {
@@ -147,7 +146,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
                             })
                             .fail(function (data) {
-                                logger.error("Rating data loading failed!!");
+                                logger.error("Error Occured in Loading Data");
                             });
 
                     }
@@ -166,11 +165,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
 
                     var singleRating = [];
-                    /*
-
                     
-                    
-                    */
 
                     if ($scope.Ratings.length === $scope.employeeListData.length) {
                         $scope.DataLoaded = true;
@@ -179,8 +174,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                         $scope.stateIndicate();
                     }
 
-                    // dSAppraisal.saveChanges().fail(addFailed);
-
+                    
                     function addFailed() {
 
                     }
@@ -189,25 +183,22 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
                     }
 
-                    //dSAppraisal.invalidateAppraisal($scope.employeeListData[0].appraisal_id, $scope.temp.AppraisalState);
-
+                    
                 }
 
                 $scope.$apply();
-                //logger.info("Data loaded!!");
+                
             })
             .fail(function (data) {
-                logger.error("error occuerd when fetching evaluation data.Restart the application");
+                logger.error("Error Occured in Loading Data");
             });
-                //*****************
-
-
+                
                 $scope.$apply();
-                //logger.info("Data loaded!!");
+                
             })
             .fail(function (data) {
-                alert("error occuerdwhen fetching appraisal data");
-                logger.error("Data loading failed!!");
+                
+                logger.error("Error Occured in Laoding Data");
             });
 
     };
@@ -243,10 +234,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 }
             }
             if (state === 0 && IsMiddle === 1) {
-                //$scope.popColor = "{ color: 'yellow' }";
                 $scope.Ratings[eval_run].state = "{ color: '#f6f7a2' }";//intermediate
-                // $scope.btnStyle = "{ color: 'yellow' }";
-                //document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).style.backgroundColor = '#f6f7a2';
                 document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "intermideate";
                 $scope.isSubmitable = false;
                 if (!$scope.isSubmitable) {
@@ -256,17 +244,11 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
             }
             if (state === 2 && IsMiddle === 1) {
-                // $scope.popColor = "{ color: 'green' }";
                 $scope.EmpEvaluation.state = "{ color: '#C6FEB3' }";//completed state
-                //$scope.btnStyle = "{ color: 'green' }";
-                //document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).style.backgroundColor = '#C6FEB3';
                 document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "success_fin";
             }
             if (state === 0 && IsMiddle === 0) {
-                //$scope.popColor = "{ color: 'red' }";
                 $scope.Ratings[eval_run].state = "{ color: '#FEEEF9' }";//fresh
-                //$scope.btnStyle = "{ color: 'red' }";
-                //document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).style.backgroundColor = '#FEEEF9';
                 document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "newbie";
                 $scope.isSubmitable = false;
                 if (!$scope.isSubmitable) {
@@ -380,7 +362,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 }
             })
             .fail(function () {
-                logger.error("restart the application");
+                logger.error("Error Occured in Saving");
             });
         }
 
@@ -409,12 +391,12 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
         }
 
-        logger.info("Appraisal saved temporaly!!");
+        logger.info("Appraisal Saved Temporaly");
 
     }
 
     $scope.save = function () {
-        logger.success("Saved to db Successfully");
+        logger.success("Saved Successfully");
         dSAppraisal.invalidateAppraisal(getURLParameter('app_id'), $scope.temp.AppraisalState);
         $scope.temp.templateT = { name: 'formFilled.html', url: 'GenerateForm/templates/formFilled.html' };
 
@@ -445,10 +427,6 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
         }
     }
 
-
-
-
-
 });
 
 app.generateForm.controller('selectRatings', function ($scope, $timeout, $http) {
@@ -478,7 +456,7 @@ app.generateForm.controller('SingleCell', function ($scope, $timeout, $http, sha
             comments: commentValue
         };
         if (!$scope.isFilled) {
-            //document.getElementById(cri_id + "_" + emp_id).style.backgroundColor = "#cfe7b2";
+
         }
 
         if ($.inArray(cri_id + "_" + emp_id, formCells) < 0) {
@@ -501,10 +479,5 @@ app.generateForm.controller('SingleCell', function ($scope, $timeout, $http, sha
             }
         }
     }
-
-
-
-
-    //sharedProperties.setProperty($scope.formCells);
-
+    
 });

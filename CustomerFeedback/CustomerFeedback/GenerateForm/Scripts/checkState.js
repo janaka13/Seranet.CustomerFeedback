@@ -25,13 +25,13 @@ app.generateForm.controller('mainFormPage', function ($scope, $timeout, $http) {
                 $scope.temp.templateT = { name: 'Validate.html', url: 'GenerateForm/templates/Validate.html' };
             }
             else {
-                logger.error("Invalid Url.");
+                logger.error("Invalid Url");
                 $scope.temp.templateT = { name: 'validateFailed.html', url: 'GenerateForm/templates/validateFailed.html' };
             }
 
         }).
         error(function (data, status, headers, config) {
-            logger.error("Validation failed");
+            logger.error("Validation Failed");
         });
 
     }

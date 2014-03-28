@@ -15,7 +15,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
         async: false,
         success: function (data) {
             if (data == "0") {
-                logger.error("you are not logged in.");
+                logger.error("You are not Logged in");
                 window.location.assign("./Login.html");
             }
         }
@@ -60,7 +60,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
             {
                 if ($scope.employeesNames[i].employeename.toLowerCase() == $scope.employeeText.toLowerCase())
                 {
-                    logger.warning("Already Entered");
+                    logger.warning("Already Added");
                     return;
                 }
             }
@@ -72,7 +72,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
                 }
 
                 if (i == ($scope.allEmployees.length - 1)) {
-                    logger.warning("No such employee");
+                    logger.warning("No Such Employee");
                     return;
                 }
             }
@@ -117,7 +117,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
             //check whether mail is already added to the listof customer mails
             for (i = 0; i < $scope.customerMails.length; i++) {
                 if ($scope.customerMails[i].customermail.toLowerCase() == $scope.customerText.toLowerCase()) {
-                    logger.warning("Already Entered");
+                    logger.warning("Already Added");
                     return;
                 }
             }
@@ -149,19 +149,19 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
         var warning = "";
 
         if($scope.selectetProject=="")
-            warning = "Select a Project first";
+            warning = "Select a Project First";
 
         else if ($scope.projects.length == 0)
-            warning = "Select a project first";
+            warning = "Select a Project First";
 
         else if ($scope.yearText == null || $scope.yearText == "")
-            warning = "Enter an year";
+            warning = "Enter an Year";
 
         else if (isNaN($scope.yearText) || $scope.yearText % 1 !=0)
-            warning = "Enter a valid year";
+            warning = "Enter a Valid year";
 
         else if ($scope.selectedDuration == "")
-            warning = "Select the appraisal type";
+            warning = "Select the Appraisal Type";
 
         else if ($scope.employeesNames.length == 0)
             warning = "Select an Employee in the Project";
@@ -202,7 +202,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
 
         function queryFailed(error) {
             unblock();
-            logger.error(error, "Error while retrieving top appraisal from database");
+            logger.error(error, "Error Occured in Saving");
         }
     };
 
@@ -272,7 +272,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
                     block();
                     logger.info("Sending mails");
                     for (j = 0; j < $scope.mailstoSend.length; j++) {
-                        var url = "http://99xt.lk/CustomerFeedback/FeedBackForm.html?app_id=" + ($scope.mailstoSend[j].appraisal_id);
+                        var url = "http://localhost:53797/FeedBackForm.html?app_id=" + ($scope.mailstoSend[j].appraisal_id);
 
                         dataserviceRequests.sendMail($scope.mailstoSend[j].customermail,
                             ("Appraisals for " + $scope.mailstoSend[j].project + " -" + $scope.mailstoSend[j].type + "," + $scope.mailstoSend[j].year),
@@ -298,7 +298,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
 
         function queryFailed(error) {
             unblock();
-            logger.error(error, "Error while retrieving top evaluation from the database")
+            logger.error(error, "Error Occured in Saving")
         }
     };
 
@@ -332,7 +332,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
                     $scope.projects.push({ projectId: data[i].assignment, projectName: data[i].name });
                 };
                 $scope.$apply();
-                logger.success("Project Details loaded");
+                logger.success("Project Details Loaded");
                 
                 var first, last, full;
 
@@ -351,7 +351,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
                             full = first + " " + last;
                             $scope.allEmployees.push(full);
                         };
-                        logger.success("Employee Details loaded");
+                        logger.success("Employee Details Loaded");
                         unblock();
                     }
                 });
@@ -359,7 +359,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
             },
             error: function (error) {
                 unblock();
-                logger.error("Check network connectivity and retry", "An error occurred to while retrieving data");
+                logger.error("Check Network Connectivity and Retry");
             }
         });        
     };
@@ -401,7 +401,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
             },
             error: function () {
                 unblock();
-                logger.error("An error occurred to while retrieving data");
+                logger.error("Error Occurred in Loading Data");
             }
 
         });
