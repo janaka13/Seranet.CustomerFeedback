@@ -1,5 +1,19 @@
 ﻿app.applogin.controller('LoginController', function ($scope, $timeout, $http) {
     var logger = app.logger;
+
+    $.ajax({
+        type: 'POST',
+        url: 'api/CheckLogginStatus',
+        contentType: 'application/json;charset=utf-8',
+        async: false,
+        success: function (data) {
+            if (data == "1") {
+                logger.error("you are not logged in.");
+                window.location.assign("./Home.html#/");
+            }
+        }
+    });
+
     $scope.login = function () {
         var user = { userName: $scope.usernameText, password: $scope.passwordText, userType: 1 };
         $http({

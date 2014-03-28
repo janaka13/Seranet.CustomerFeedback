@@ -5,6 +5,19 @@
     var dataserviceAppraisal = app.ViewFormDataserviceAppraisal;
     var logger = app.logger;
 
+    $.ajax({
+        type: 'POST',
+        url: 'api/CheckLogginStatus',
+        contentType: 'application/json;charset=utf-8',
+        async: false,
+        success: function (data) {
+            if (data == "0") {
+                logger.error("you are not logged in.");
+                window.location.assign("./Login.html");
+            }
+        }
+    });
+
     $scope.appraisals = [];
 
     $scope.groupedItems = [];
@@ -98,6 +111,7 @@
     $scope.viewApp = function (appraisalID, status) {
         
         $scope.Ratings = [];
+        $scope.Totals = [];
 
         if (parseInt(status) == 1 || parseInt(status) == 2) {
             logger.warning("Not yet submitted");
@@ -125,6 +139,10 @@
                         tempEmp.push({
                             name: $scope.currentEvaluations[j].employee_name,
                             rate: ""
+                        });
+                        $scope.Totals.push({
+                            name: $scope.currentEvaluations[j].employee_name,
+                            total: 0
                         });
                     }
 
@@ -157,6 +175,7 @@
                                                 for (l = 0; l < tempEmp.length; l++) {
                                                     if ($scope.Ratings[k].emplist[l].name == data.results[0].evaluation.employee_name) {
                                                         $scope.Ratings[k].emplist[l].rate = data.results[0].rating;
+                                                        $scope.Totals[l].total += data.results[0].rating;
                                                         if (data.results[0].comments != null) {
                                                             $scope.Ratings[k].emplist[l].additional = data.results[0].comments;
                                                         }
@@ -262,7 +281,7 @@
     $scope.backToList = function () {
         $scope.selection = "all";
         $scope.Ratings = [];
-    }
-
+    };
+    
 }
 );

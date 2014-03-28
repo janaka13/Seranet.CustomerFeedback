@@ -60,7 +60,6 @@
                                         </td>
                                     </tr>
                                 </tbody>
-
                             </table>
 
                             <div class="pagination pull-right">
@@ -108,7 +107,10 @@
                                     </div>
                                 </td>
                             </tr>
-
+                            <tr>
+                                <th>Total</th>
+                                <th ng-repeat="score in Totals">{{score.total}}</th>
+                            </tr>
                         </table>
 
                         <input type="button" onclick="toExcel('selectedTable', 'appraisal')" value="Export to Excel">
