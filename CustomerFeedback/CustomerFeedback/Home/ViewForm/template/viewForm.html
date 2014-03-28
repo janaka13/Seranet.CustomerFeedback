@@ -60,7 +60,6 @@
                                         </td>
                                     </tr>
                                 </tbody>
-
                             </table>
 
                             <div class="pagination pull-right">
@@ -110,7 +109,7 @@
                             </tr>
                             <tr>
                                 <th>Total</th>
-                                <th ng-repeat="employee in currentEvaluations"></th>
+                                <th ng-repeat="score in Totals">{{score.total}}</th>
                             </tr>
                         </table>
 

@@ -111,6 +111,7 @@
     $scope.viewApp = function (appraisalID, status) {
         
         $scope.Ratings = [];
+        $scope.Totals = [];
 
         if (parseInt(status) == 1 || parseInt(status) == 2) {
             logger.warning("Not yet submitted");
@@ -138,6 +139,10 @@
                         tempEmp.push({
                             name: $scope.currentEvaluations[j].employee_name,
                             rate: ""
+                        });
+                        $scope.Totals.push({
+                            name: $scope.currentEvaluations[j].employee_name,
+                            total: 0
                         });
                     }
 
@@ -170,6 +175,7 @@
                                                 for (l = 0; l < tempEmp.length; l++) {
                                                     if ($scope.Ratings[k].emplist[l].name == data.results[0].evaluation.employee_name) {
                                                         $scope.Ratings[k].emplist[l].rate = data.results[0].rating;
+                                                        $scope.Totals[l].total += data.results[0].rating;
                                                         if (data.results[0].comments != null) {
                                                             $scope.Ratings[k].emplist[l].additional = data.results[0].comments;
                                                         }
@@ -276,14 +282,6 @@
         $scope.selection = "all";
         $scope.Ratings = [];
     };
-
-    $("#selectedTable tr:last td:not(:first,:last)").text(function (i) {
-        var t = 0;
-        $(this).parent().prevAll().find("td:nth-child(" + (i + 2) + ")").each(function () {
-            t += parseInt($(this).text(), 10) || 0;
-        });
-        return "Total: " + t;
-    });
-
+    
 }
 );
