@@ -15,15 +15,15 @@ app.generateForm.controller('validateCtrl', function ($scope, $timeout, $http) {
         }).
         success(function (data, status, headers, config) {
             if (data[1] === "1") {
-                logger.success("Validation successfull");
+                logger.success("Validation Successful");
                 $scope.temp.templateT = { name: 'formBody.html', url: 'GenerateForm/templates/formBody.html' };
             }
             else {
-                logger.error("Validation failedd");
+                logger.error("Validation Failed");
             }
         }).
         error(function (data, status, headers, config) {
-            logger.error("Validation failed");
+            logger.error("Validation Failed");
         });
 
     }

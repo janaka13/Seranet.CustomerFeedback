@@ -112,7 +112,7 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
                          " You may have to restart the app.";
             }
 
-            logger.error(error, reason);
+            logger.error("Error Occured in Saving");
             // DEMO ONLY: discard all pending changes
             // Let them see the error for a second before rejecting changes
             GenerateFormDataserviceAppraisal.$timeout(function () {
@@ -152,7 +152,7 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
                          " You may have to restart the app.";
             }
 
-            logger.error(error, reason);
+            logger.error("Error Occured in Saving");
             // DEMO ONLY: discard all pending changes
             // Let them see the error for a second before rejecting changes
             GenerateFormDataserviceAppraisal.$timeout(function () {
@@ -181,10 +181,10 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
             contentType: 'application/json;charset=utf-8',
             data: JSON.stringify(appId),
             success: function (data) {
-                logger.success("Appraisal invalidated");
+                //logger.success("Appraisal invalidated");
             },
             error: function () {
-                logger.error("Appraisal invalidation failed...");
+                logger.error("Error Occured in Saving");
             }
         });
     }

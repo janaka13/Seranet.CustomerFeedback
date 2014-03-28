@@ -12,7 +12,7 @@
         async: false,
         success: function (data) {
             if (data == "0") {
-                logger.error("you are not logged in.");
+                logger.error("You are not Logged in");
                 window.location.assign("./Login.html");
             }
         }
@@ -78,7 +78,7 @@
             $scope.allPages = Math.floor(data.inlineCount / $scope.itemsPerPage) + (data.inlineCount % $scope.itemsPerPage > 0 ? 1 : 0);
 
             if (data.results.length == 0) {
-                logger.warning("No results found");
+                logger.warning("No Matching Appraisal Found");
             }
 
             $scope.groupToPages();
@@ -90,7 +90,7 @@
         }
 
         function queryFailed(error) {
-            logger.error(error, "Error while retrieving data from database");
+            logger.error(error, "Error in Loading Data");
         }
     };
 
@@ -186,7 +186,7 @@
                                         $scope.$apply();
                                     })
                                     .fail(function (error) {
-                                        logger.error(error, "Error occured when fetching rating data");
+                                        logger.error(error, "Error in Loading Rating Data");
                                     });
 
 
@@ -207,7 +207,7 @@
                                         $scope.$apply();
                                     })
                                     .fail(function (error) {
-                                        logger.error(error, "Error occured when fetching rating data");
+                                        logger.error(error, "Error in Loading Rating Data");
                                     });
                             }
                         }
@@ -219,12 +219,12 @@
                     //Modify View
                 })
                 .fail(function (data) {
-                    logger.error(data, "Error occured when fetching evaluation data");
+                    logger.error(data, "Error in Loading Evaluation Data");
                 });
 
             })
             .fail(function (data) {
-                logger.error(data, "Error occured when fetching appraisal data");
+                logger.error(data, "Error in Loading Appraisal Data");
             });
         }
     };

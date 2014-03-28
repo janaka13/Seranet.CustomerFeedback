@@ -45,11 +45,11 @@ app.RequestFormDataservice = (function (breeze, logger) {
             .fail(saveFailed);
 
         function saveSucceeded(saveResult) {
-            logger.success("save succeed");
+            logger.success("Saved Appraisals Successfully");
         }
 
         function saveFailed(error) {
-            logger.error(error, "save failed");
+            logger.error(error, "Failed Saving Appraisals");
         }
     }
 
