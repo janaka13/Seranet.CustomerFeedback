@@ -46,6 +46,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                         'criteria_description': $scope.appraisalData.template.templateStructures[l].criteria.criteria_description,
                         'criteria_caption': $scope.appraisalData.template.templateStructures[l].criteria.criteria_caption,
                         'rating_guide': $scope.appraisalData.template.templateStructures[l].criteria.rating_guide,
+                        'optional': $scope.appraisalData.template.templateStructures[l].criteria.optional,
                         'comments': "",
                         'rating': { 'label': "", 'index': "" }
                     });
@@ -212,10 +213,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
     $scope.stateIndicate = function () {
 
         /*Rating state 0 : still not even touched,state 1 : middle ,state 2 : finish */
-
-        var state = 2;
-        var IsMiddle = 0;
-
+        
         if ($scope.isSubmitable) {
             $scope.isSubmitable = false;
             document.getElementById("save").disabled = true;
@@ -224,15 +222,28 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
         for (var eval_run = 0; eval_run < $scope.Ratings.length; eval_run++) {
 
+            var state = 2;
+            var IsMiddle = 0;
+            var all = 0;
+            var completed = 0;
+
             for (var cri_run = 0; cri_run < $scope.Ratings[eval_run].rating.length; cri_run++) {
 
-                if ($scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && ($scope.Ratings[eval_run].rating[cri_run].rating.index === -1 || $scope.Ratings[eval_run].rating[cri_run].rating.index === "")) {
+                if ($scope.Ratings[eval_run].rating[cri_run].optional === 0) {
+                    all++;
+                }
+
+                if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && ($scope.Ratings[eval_run].rating[cri_run].rating.index === -1 || $scope.Ratings[eval_run].rating[cri_run].rating.index === "")) {
                     state = 0;
                 }
-                if ($scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments === "") {
+                if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments === "") {
                     state = 0;
                 }
                 if (($scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && ($scope.Ratings[eval_run].rating[cri_run].rating.index !== -1 && $scope.Ratings[eval_run].rating[cri_run].rating.index !== '')) || $scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments !== "") {
+                    completed++;
+                    IsMiddle = 1;
+                }
+                if ($scope.Ratings[eval_run].rating[cri_run].optional === 1) {
                     IsMiddle = 1;
                 }
             }
@@ -269,8 +280,10 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 }
 
             }
-            IsMiddle = 0;
-            state = 2;
+
+
+            document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).style.width = (completed / all * 100) + "%";
+
         }
 
 
@@ -312,10 +325,10 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                                     $scope.RatingList[breeze_object][cri_id_temp].comments = $scope.Ratings[ang_object].rating[cri_id_ratingList].comments;
                                     saveIfModified($scope.RatingList[breeze_object][cri_id_temp]);
 
-                                    if ($scope.Ratings[ang_object].rating[cri_id_ratingList].criteria_type === 1 && $scope.Ratings[ang_object].rating[cri_id_ratingList].rating.index === -1) {
+                                    if ($scope.Ratings[ang_object].rating[cri_id_ratingList].optional !== 1 && $scope.Ratings[ang_object].rating[cri_id_ratingList].criteria_type === 1 && $scope.Ratings[ang_object].rating[cri_id_ratingList].rating.index === -1) {
                                         $scope.isSubmitable = false;
                                     }
-                                    if ($scope.Ratings[ang_object].rating[cri_id_ratingList].criteria_type === 2 && $scope.Ratings[ang_object].rating[cri_id_ratingList].comments === "") {
+                                    if ($scope.Ratings[ang_object].rating[cri_id_ratingList].optional !== 1 && $scope.Ratings[ang_object].rating[cri_id_ratingList].criteria_type === 2 && $scope.Ratings[ang_object].rating[cri_id_ratingList].comments === "") {
                                         $scope.isSubmitable = false;
                                     }
                                 }
@@ -348,10 +361,10 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                         comments: $scope.Ratings[eval_run].rating[cri_run].comments
                     });
 
-                    if ($scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && $scope.Ratings[eval_run].rating[cri_run].rating.index === -1) {
+                    if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && $scope.Ratings[eval_run].rating[cri_run].rating.index === -1) {
                         $scope.isSubmitable = false;
                     }
-                    if ($scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments === "") {
+                    if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments === "") {
                         $scope.isSubmitable = false;
                     }
 

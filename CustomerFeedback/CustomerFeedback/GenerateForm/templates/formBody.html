@@ -41,7 +41,18 @@
                         <div class="btn-group">
                             <ul id="EmpList">
                                 <li ng-repeat="c in Ratings">
-                                    <a class="empAncor"><div ng-click="changeRating(c.evaluation_id)" id="empName_{{ c.evaluation_id }}" class="employeeNames"><div class="emp_fullName">{{ c.employee_name }}</div></div></a>
+                                    <a class="empAncor">
+                                        <div ng-click="changeRating(c.evaluation_id)" id="empName_{{ c.evaluation_id }}" class="employeeNames">
+                                            <div class="emp_fullName">{{ c.employee_name }}</div>
+                                                <div class="progress-bar-back active">
+                                              <div class="progress-bar"  id="progress_{{ c.evaluation_id }}" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                                                <span class="sr-only"></span>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </a>
+                                    
                                 </li>
                             </ul>
                         </div>
