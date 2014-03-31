@@ -235,65 +235,6 @@ background:#ffffff;
  text-align: center;
 }
 
-.success_fin{
-border:1px solid #0C9446;
- -webkit-border-radius: 3px; 
- -moz-border-radius: 3px;
- border-radius: 3px;
- font-size:14px;
- font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #ffffff;
-background:#2ecc71;
- width:180px;
- text-align: center;
-}
-
-.success_fin:hover{
- border:1px solid #0C9446;
- background-color: #19AF59;
- width:180px;
- text-align: center;
-}
-
-
-.newbie{
-border:1px solid #991B1B; 
--webkit-border-radius: 3px; 
--moz-border-radius: 3px;
-border-radius: 3px;
-font-size:14px;
-font-family:arial, helvetica, sans-serif; 
-padding: 10px 10px 10px 10px; 
-text-decoration:none; 
-display:inline-block;
-font-weight:normal; 
-color: #ffffff;
-background:#F36767;
- width:180px;
- text-align: center;
-}
-
-.newbie:hover{
- border:1px solid #991B1B;
- background-color: #E74949; 
- width:180px;
- text-align: center;
-}
-
-
-
-.intermideate{
-border:1px solid #f3c546; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:14px;font-family:arial, helvetica, sans-serif; padding: 10px 10px 10px 10px; text-decoration:none; display:inline-block; color: #080808;
-background:#faf68f;
- width:180px;
- text-align: center;
-}
-
-.intermideate:hover{
- border:1px solid #f7f25f;
- background-color: #faf68f;
- width:180px;
- text-align: center;
-}
 
 .emp_fullName {
     white-space: initial;
