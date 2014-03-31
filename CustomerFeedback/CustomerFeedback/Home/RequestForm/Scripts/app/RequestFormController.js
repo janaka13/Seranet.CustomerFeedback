@@ -264,15 +264,16 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
                 $("#no").unbind("click");
 
                 unblock();
-                $scope.appraisalToSend = $scope.appraisalToSave +
-                    ($scope.customerMails.length == 1 ? "" : ("-" + ($scope.appraisalToSave + $scope.customerMails.length - 1)));
+                //$scope.appraisalToSend = $scope.appraisalToSave +
+                //    ($scope.customerMails.length == 1 ? "" : ("-" + ($scope.appraisalToSave + $scope.customerMails.length - 1)));
+                $scope.appraisalToSend = $scope.customerMails.length;
                 $scope.$apply();
                 question();
                 $('#yes').click(function () {                     
                     block();
                     logger.info("Sending mails");
                     for (j = 0; j < $scope.mailstoSend.length; j++) {
-                        var url = "http://localhost:53797/FeedBackForm.html?app_id=" + ($scope.mailstoSend[j].appraisal_id);
+                        var url = "http://99xt.lk/CustomerFeedback/FeedBackForm.html?app_id=" + ($scope.mailstoSend[j].appraisal_id);
 
                         dataserviceRequests.sendMail($scope.mailstoSend[j].customermail,
                             ("Appraisals for " + $scope.mailstoSend[j].project + " -" + $scope.mailstoSend[j].type + "," + $scope.mailstoSend[j].year),
