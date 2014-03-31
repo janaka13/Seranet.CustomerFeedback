@@ -17,7 +17,7 @@ namespace CustomerFeedback.Migrations
         {
             //  This method will be called after migrating to the latest version.
 
-            context.Appraisal.AddOrUpdate(a => a.appraisal_id, new Appraisal[]{
+            /*context.Appraisal.AddOrUpdate(a => a.appraisal_id, new Appraisal[]{
                 
             });
 
@@ -56,7 +56,7 @@ namespace CustomerFeedback.Migrations
             context.AdminUser.AddOrUpdate(a => a.id, new AdminUser[] { 
             
                 new AdminUser(){id = 1,userName = "admin" ,password = "1000:huejsSw5y05NBekLszZTJbs/1ssxb+FY:EBhRjxHIg5Ky9NEU/VeYPaxaJlU6435E" ,userType = 1}
-            });
+            });*/
 
         }
 
