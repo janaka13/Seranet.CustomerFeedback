@@ -12,6 +12,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
     $scope.employeeListData = [];
     $scope.Ratings = [];
+    $scope.AssignClass = false;
 
     $scope.empNameList;
     $scope.compareArray = [];
@@ -30,6 +31,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
     $scope.DataLoaded = false;
     $scope.mytempvar = 0;
     $scope.isCollapsedComp = true;
+
     $scope.getAllAppraisals = function () {
 
         dSAppraisal.getAppraisalData()
@@ -161,6 +163,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                         empName = $scope.employeeListData[k].employee_name;
                         empId = $scope.employeeListData[k].employee_id;
                         $scope.Ratings.push({ 'evaluation_id': $scope.employeeListData[k].evaluation_id, 'rating': tempCriteriaData, 'employee_name': empName, 'employee_id': empId, state: 0 });
+                        //document.getElementById("empName_" + $scope.employeeListData[k].evaluation_id).className = "intermideate";
                     }
 
 
@@ -233,9 +236,16 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                     IsMiddle = 1;
                 }
             }
+
+            if (!$scope.AssignClass) {
+                document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "deselectdiv";
+                if (eval_run == $scope.Ratings.length - 1) {
+                    $scope.AssignClass = true;
+                }
+            }
             if (state === 0 && IsMiddle === 1) {
                 $scope.Ratings[eval_run].state = "{ color: '#f6f7a2' }";//intermediate
-                document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "intermideate";
+                //document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "intermideate";
                 $scope.isSubmitable = false;
                 if (!$scope.isSubmitable) {
                     document.getElementById("save").disabled = true;
@@ -245,11 +255,11 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             }
             if (state === 2 && IsMiddle === 1) {
                 $scope.EmpEvaluation.state = "{ color: '#C6FEB3' }";//completed state
-                document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "success_fin";
+                //document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "success_fin";
             }
             if (state === 0 && IsMiddle === 0) {
                 $scope.Ratings[eval_run].state = "{ color: '#FEEEF9' }";//fresh
-                document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "newbie";
+                //document.getElementById("empName_" + $scope.Ratings[eval_run].evaluation_id).className = "newbie";
                 $scope.isSubmitable = false;
                 if (!$scope.isSubmitable) {
                     document.getElementById("save").disabled = true;
@@ -414,6 +424,11 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
         for (var i = 0; i < $scope.Ratings.length; i++) {
             if ($scope.Ratings[i].evaluation_id === evaluationId) {
                 $scope.EmpEvaluation = $scope.Ratings[i];
+                document.getElementById("empName_" + $scope.Ratings[i].evaluation_id).className = "selectdiv";
+                $scope.$apply();
+            }
+            else {
+                document.getElementById("empName_" + $scope.Ratings[i].evaluation_id).className = "deselectdiv";
             }
         }
 
