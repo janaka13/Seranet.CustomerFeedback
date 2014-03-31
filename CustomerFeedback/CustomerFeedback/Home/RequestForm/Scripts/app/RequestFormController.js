@@ -264,8 +264,9 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
                 $("#no").unbind("click");
 
                 unblock();
-                $scope.appraisalToSend = $scope.appraisalToSave +
-                    ($scope.customerMails.length == 1 ? "" : ("-" + ($scope.appraisalToSave + $scope.customerMails.length - 1)));
+                //$scope.appraisalToSend = $scope.appraisalToSave +
+                //    ($scope.customerMails.length == 1 ? "" : ("-" + ($scope.appraisalToSave + $scope.customerMails.length - 1)));
+                $scope.appraisalToSend = $scope.customerMails.length;
                 $scope.$apply();
                 question();
                 $('#yes').click(function () {                     
