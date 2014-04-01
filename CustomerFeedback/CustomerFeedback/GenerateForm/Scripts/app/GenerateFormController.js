@@ -232,7 +232,6 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 if ($scope.Ratings[eval_run].rating[cri_run].optional === 0) {
                     all++;
                 }
-
                 if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && ($scope.Ratings[eval_run].rating[cri_run].rating.index === -1 || $scope.Ratings[eval_run].rating[cri_run].rating.index === "")) {
                     state = 0;
                 }
@@ -240,8 +239,10 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                     state = 0;
                 }
                 if (($scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && ($scope.Ratings[eval_run].rating[cri_run].rating.index !== -1 && $scope.Ratings[eval_run].rating[cri_run].rating.index !== '')) || $scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments !== "") {
-                    completed++;
                     IsMiddle = 1;
+                    if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1) {
+                        completed++;
+                    }
                 }
                 if ($scope.Ratings[eval_run].rating[cri_run].optional === 1) {
                     IsMiddle = 1;
