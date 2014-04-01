@@ -915,3 +915,206 @@ C:\Users\HashniS\Desktop\CF\Demo1\Seranet.CustomerFeedback\CustomerFeedback\Cust
 C:\Users\HashniS\Desktop\CF\Demo1\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
 C:\Users\HashniS\Desktop\CF\Demo1\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
 C:\Users\HashniS\Desktop\CF\Demo1\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+C:\Users\HashniS\Desktop\CF\NowGit\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.addoptionalfieldtocriteria.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll.config
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.addoptionalfieldtocriteria.resources
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+G:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\CustomerFeedback.pdb
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.ContextProvider.EF6.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Breeze.WebApi2.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Web.Infrastructure.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\WebActivator.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\EntityFramework.SqlServer.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.Edm.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Microsoft.Data.OData.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\RestSharp.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Spatial.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.OData.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\Newtonsoft.Json.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Net.Http.Formatting.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\System.Web.Http.WebHost.xml
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\de\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\es\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\fr\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\it\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ja\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ko\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\ru\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hans\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\bin\zh-Hant\System.Spatial.resources.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csprojResolveAssemblyReference.cache
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.InitialCreate.resources
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.AddCriteriaType.resources
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.strEmpId.resources
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.paramList.resources
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.Login.resources
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.is_viewd.resources
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.Migrations.addoptionalfieldtocriteria.resources
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.csproj.GenerateResource.Cache
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.dll
+J:\CF Demo 2\2\Seranet.CustomerFeedback\CustomerFeedback\CustomerFeedback\obj\Debug\CustomerFeedback.pdb
