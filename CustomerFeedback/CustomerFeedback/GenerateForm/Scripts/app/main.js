@@ -66,9 +66,9 @@
                         </div>\
                        </div>',
             scope: false,
-            link: function (scope, iElement, iAttrs, ctrl) {
-                scope.compareArray = [];
-                scope.$watch('Ratings', function () {
+            link: function (scope, iElement, iAttrs, ctrl) {                
+                scope.$watch('popoverUpdate', function () {
+                    scope.compareArray = [];
                     for (var d = 0; d < scope.Ratings.length; d++) {
                         for (var h = 0; h < scope.Ratings[d].rating.length; h++) {
                             if (scope.cri.criteria_id === scope.Ratings[d].rating[h].criteria_id) {

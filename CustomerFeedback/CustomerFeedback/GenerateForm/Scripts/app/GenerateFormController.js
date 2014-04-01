@@ -31,6 +31,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
     $scope.DataLoaded = false;
     $scope.mytempvar = 0;
     $scope.isCollapsedComp = true;
+    $scope.popoverUpdate = false;
 
     $scope.getAllAppraisals = function () {
 
@@ -213,7 +214,12 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
     $scope.stateIndicate = function () {
 
         /*Rating state 0 : still not even touched,state 1 : middle ,state 2 : finish */
-        
+        if($scope.popoverUpdate)
+            $scope.popoverUpdate = false;
+        else
+            $scope.popoverUpdate = true;
+
+
         if ($scope.isSubmitable) {
             $scope.isSubmitable = false;
             document.getElementById("save").disabled = true;
