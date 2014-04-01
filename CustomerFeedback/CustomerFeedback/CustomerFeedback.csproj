@@ -236,6 +236,10 @@
     <Compile Include="Migrations\201401100943512_is_viewd.Designer.cs">
       <DependentUpon>201401100943512_is_viewd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201403310847332_add optional field to criteria.cs" />
+    <Compile Include="Migrations\201403310847332_add optional field to criteria.Designer.cs">
+      <DependentUpon>201403310847332_add optional field to criteria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -282,6 +286,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201401100943512_is_viewd.resx">
       <DependentUpon>201401100943512_is_viewd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201403310847332_add optional field to criteria.resx">
+      <DependentUpon>201403310847332_add optional field to criteria.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
