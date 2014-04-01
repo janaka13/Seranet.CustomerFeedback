@@ -7,7 +7,7 @@
             <div class="ball1"></div>
         </div>
     </div>
-    <div ng-show="DataLoaded"> 
+    <div ng-show="DataLoaded">
         <div class='wrap1 mainWrapper formUpper clearfix'>
             <div class="wrap2 nameEmp">
                 <div class='element1'>
@@ -44,15 +44,15 @@
                                     <a class="empAncor">
                                         <div ng-click="changeRating(c.evaluation_id)" id="empName_{{ c.evaluation_id }}" class="employeeNames">
                                             <div class="emp_fullName">{{ c.employee_name }}</div>
-                                                <div class="progress-bar-back active">
-                                              <div class="progress-bar"  id="progress_{{ c.evaluation_id }}" role="progressbar" aria-valuemin="0" aria-valuemax="100">
-                                                <span class="sr-only"></span>
-                                              </div>
+                                            <div class="progress-bar-back active">
+                                                <div class="progress-bar" id="progress_{{ c.evaluation_id }}" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                                                    <span class="sr-only"></span>
+                                                </div>
                                             </div>
                                         </div>
-                                        
+
                                     </a>
-                                    
+
                                 </li>
                             </ul>
                         </div>
@@ -69,7 +69,14 @@
 
                         <div class="element1">
                             <div class="popover_compare singleCricInline clearfix">
-                                <div class="criteria_name cricTitleField">{{ cri.criteria_caption }}</div>
+                                <div ng-switch on="cri.optional">
+                                    <div class="criteria_name cricTitleField" ng-switch-when="0">
+                                        {{ cri.criteria_caption }}*
+                                    </div>
+                                    <div class="criteria_name cricTitleField" ng-switch-when="1">
+                                        {{ cri.criteria_caption }}
+                                    </div>
+                                </div>
                                 <div ng-switch on="cri.criteria_type" class="cricTitleField">
                                     <div class="popover_data">
                                         <pop-over></pop-over>
@@ -131,7 +138,14 @@
 
                         <div class="element1">
                             <div class="popover_compare singleCricInline clearfix">
-                                <div class="criteria_name cricTitleField">{{ cri.criteria_caption }}</div>
+                                <div ng-switch on="cri.optional">
+                                    <div class="criteria_name cricTitleField" ng-switch-when="0">
+                                        {{ cri.criteria_caption }}*
+                                    </div>
+                                    <div class="criteria_name cricTitleField" ng-switch-when="1">
+                                        {{ cri.criteria_caption }}
+                                    </div>
+                                </div>
                                 <div ng-switch on="cri.criteria_type" class="cricTitleField">
                                     <div class="popover_data">
                                         <pop-over></pop-over>
@@ -187,7 +201,7 @@
             </div>
 
 
-            
+
         </div>
 
 
