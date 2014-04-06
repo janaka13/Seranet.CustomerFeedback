@@ -247,7 +247,19 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 if (($scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && ($scope.Ratings[eval_run].rating[cri_run].rating.index !== -1 && $scope.Ratings[eval_run].rating[cri_run].rating.index !== '')) || $scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments !== "") {
                     IsMiddle = 1;
                     if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1) {
-                        completed++;
+
+                        if ($scope.Ratings[eval_run].rating[cri_run].criteria_type === 1) {
+                            if ($scope.Ratings[eval_run].rating[cri_run].rating.index < 3 &&
+                                document.getElementById($scope.Ratings[eval_run].rating[cri_run].criteria_caption).value != "") {
+                                completed++;
+                            }
+                            else if ($scope.Ratings[eval_run].rating[cri_run].rating.index > 2) {
+                                completed++;
+                            }
+                        }
+                        else if ($scope.Ratings[eval_run].rating[cri_run].criteria_type === 2) {
+                            completed++;
+                        }
                     }
                 }
                 if ($scope.Ratings[eval_run].rating[cri_run].optional === 1) {
