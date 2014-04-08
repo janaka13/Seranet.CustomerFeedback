@@ -182,15 +182,27 @@
                                                     <select-popup></select-popup>
                                                     <br />
                                                 </div>
-                                                <div>
-                                                    <!--tooltip-placement="right" tooltip="You have additional comments!"-->
-                                                    <label class="additionalComment">
-                                                        <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional commnets" class="showCommentBox" />
-                                                        Additional Comments
-                                                    </label>
+                                                <div ng-if="cri.rating.index<3 && cri.rating.index>0">
+                                                    <div>
+                                                        <!--tooltip-placement="right" tooltip="You have additional comments!"-->
+                                                        <label class="additionalComment">
+                                                            <input type="checkbox" title="Additional commnets" checked disabled/>
+                                                            Additional Comments
+                                                        </label>
 
-                                                </div>
-                                                <textarea ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-show="showCommentBox" ng-change="optionalField()" ng-change="optionalField()"></textarea>
+                                                    </div>
+                                                    <textarea id=Textarea1 ng-model="cri.comments" placeholder="Add a comment" class="textComment" ng-change="stateIndicate()"></textarea>
+                                                 </div>
+                                                <div ng-if="cri.rating.index>2">
+                                                    <div>
+                                                        <!--tooltip-placement="right" tooltip="You have additional comments!"-->
+                                                        <label class="additionalComment">
+                                                            <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional commnets" class="showCommentBox" />
+                                                            Additional Comments
+                                                        </label>
+                                                    </div>
+                                                    <textarea id=Textarea2 ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-show="showCommentBox"></textarea>
+                                                 </div>
                                             </div>
                                         </div>
                                     </div>
