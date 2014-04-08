@@ -27,6 +27,8 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
     $scope.popColor = "{ color: 'red' }";
 
+    $scope.load = "no";
+
 
     $scope.DataLoaded = false;
     $scope.mytempvar = 0;
@@ -235,6 +237,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             var all = 0;
             var completed = 0;
 
+
             for (var cri_run = 0; cri_run < $scope.Ratings[eval_run].rating.length; cri_run++) {
 
                 if ($scope.Ratings[eval_run].rating[cri_run].optional === 0) {
@@ -251,9 +254,9 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                     if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1) {
 
                         if ($scope.Ratings[eval_run].rating[cri_run].criteria_type === 1) {
-                            if ($scope.Ratings[eval_run].rating[cri_run].rating.index < 3 &&
-                                document.getElementById($scope.Ratings[eval_run].rating[cri_run].criteria_caption).value != "") {
-                                completed++;
+                            if ($scope.Ratings[eval_run].rating[cri_run].rating.index < 3) {
+                                if ($scope.Ratings[eval_run].rating[cri_run].comments != '')
+                                    completed++;
                             }
                             else if ($scope.Ratings[eval_run].rating[cri_run].rating.index > 2) {
                                 completed++;
@@ -268,6 +271,9 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                     IsMiddle = 1;
                 }
             }
+
+            document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).style.width = (completed / all * 100) + "%";
+
 
             if (!$scope.AssignClass) {
                 if (eval_run == 0) {
@@ -302,11 +308,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
             }
 
-
-            document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).style.width = (completed / all * 100) + "%";
-
         }
-
 
     }
 
@@ -461,6 +463,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             if ($scope.Ratings[i].evaluation_id === evaluationId) {
                 $scope.EmpEvaluation = $scope.Ratings[i];
                 document.getElementById("empName_" + $scope.Ratings[i].evaluation_id).className = "selectdiv";
+                $scope.stateIndicate();
                 $scope.$apply();
             }
             else {
