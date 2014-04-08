@@ -191,6 +191,8 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                     
                 }
 
+                $scope.stateIndicate();
+
                 $scope.$apply();
                 
             })
@@ -203,7 +205,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             })
             .fail(function (data) {
                 
-                logger.error("Error Occured in Laoding Data");
+                logger.error("Error Occured in Loading Data");
             });
 
     };
