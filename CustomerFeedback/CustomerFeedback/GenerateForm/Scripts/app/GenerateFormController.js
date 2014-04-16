@@ -146,8 +146,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                                 if ($scope.Ratings.length === $scope.employeeListData.length) {
                                     $scope.DataLoaded = true;
                                     $scope.EmpEvaluation = $scope.Ratings[0];
-                                    document.getElementById("jerk").click();
-                                    $scope.stateIndicate();
+                                    $scope.$apply();
                                 }
 
                             })
@@ -177,8 +176,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                     if ($scope.Ratings.length === $scope.employeeListData.length) {
                         $scope.DataLoaded = true;
                         $scope.EmpEvaluation = $scope.Ratings[0];
-                        document.getElementById("jerk").click();
-                        $scope.stateIndicate();
+                        $scope.$apply();
                     }
 
                     
@@ -192,8 +190,6 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
                     
                 }
-
-                $scope.stateIndicate();
 
                 $scope.$apply();
                 
@@ -309,19 +305,13 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             }
 
         }
-
+        $scope.$apply();
     }
 
 
-    $scope.clickJerk = function () {
-        document.getElementById("jerk").style.visibility = 'hidden';
-    }
     function getColor() {
         return $scope.EmpEvaluation.state;
     }
-
-
-
 
 
     //save the binded data of form to database
@@ -405,9 +395,6 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 $scope.apploadCount++;
                 $scope.temp.AppraisalState = "2";
                 $scope.mytempvar = 0;
-                if ($scope.apploadCount === 1) {
-                    setTimeout($scope.getAllAppraisals(), 1000);
-                }
             })
             .fail(function () {
                 logger.error("Error Occured in Saving");
@@ -534,4 +521,5 @@ app.generateForm.controller('SingleCell', function ($scope, $timeout, $http, sha
         }
     }
     
+    $(document).ready($scope.stateIndicate());
 });
