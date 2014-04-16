@@ -8,21 +8,27 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
     //route to the same origin Web Api controller
     var managerAppraisal = new breeze.EntityManager('breeze/Appraisal');
     managerAppraisal.enableSaveQueuing(true);
+    managerAppraisal.metadataStore.importMetadata(managerAppraisal.executeQuery(breeze.EntityQuery.from("Metadata")));
 
     var managerCriteria = new breeze.EntityManager('breeze/Criteria');
     managerCriteria.enableSaveQueuing(true);
+    managerCriteria.metadataStore.importMetadata(managerCriteria.executeQuery(breeze.EntityQuery.from("Metadata")));
 
     var managerEvaluation = new breeze.EntityManager('breeze/Evaluation');
     managerEvaluation.enableSaveQueuing(true);
+    managerEvaluation.metadataStore.importMetadata(managerEvaluation.executeQuery(breeze.EntityQuery.from("Metadata")));
 
     var managerRating = new breeze.EntityManager('breeze/Rating');
     managerRating.enableSaveQueuing(true);
+    managerRating.metadataStore.importMetadata(managerRating.executeQuery(breeze.EntityQuery.from("Metadata")));
 
     var managerTemplate = new breeze.EntityManager('breeze/Template');
     managerTemplate.enableSaveQueuing(true);
+    managerTemplate.metadataStore.importMetadata(managerTemplate.executeQuery(breeze.EntityQuery.from("Metadata")));
 
     var managerTemplateStructure = new breeze.EntityManager('breeze/TemplateStructure');
     managerTemplateStructure.enableSaveQueuing(true);
+    managerTemplateStructure.metadataStore.importMetadata(managerTemplateStructure.executeQuery(breeze.EntityQuery.from("Metadata")));
 
     //entity manager for whole db.Mainly for data saving purpose
     var managerDB = new breeze.EntityManager('breeze/CustomerFeedbackDb');
