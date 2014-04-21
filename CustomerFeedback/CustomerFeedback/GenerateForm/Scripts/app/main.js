@@ -2,7 +2,7 @@
     .directive('selectPopup', function ($compile) {
         return {
             restrict: 'E',
-            template: '<select ng-model="cri.rating"  ng-options="rating.label for rating in rating_Guide" class="ratingDropDown btn" ng-change="stateIndicate()"><option style="display:none" value="">select one</option></select>',
+            template: '<select ng-model="cri.rating"  ng-options="rating.label for rating in rating_Guide" class="ratingDropDown btn" ng-change="stateIndicate()"><option style="display:none" value="">Rate this criteria</option></select>',
             scope: false,
             link: function (scope, iElement, iAttrs, ctrl) {
                 scope.rating_Guide = [];
