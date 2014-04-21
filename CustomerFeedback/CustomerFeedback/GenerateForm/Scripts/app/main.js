@@ -54,9 +54,9 @@
     }).directive('popOver', function ($compile) {
         return {
             restrict: 'E',
-            template: '<div id="{{ EmpEvaluation.employee_id }}_div">\
+            template: '<div id="{{ EmpEvaluation.employee_id }}{{ cri.criteria_id }}_div">\
                            <div ng-switch-when="1">\
-                            <a class="{{ EmpEvaluation.employee_id }}_btn" ><img src="img/compare.png" class="comp_img"></a>\
+                            <a class="{{ EmpEvaluation.employee_id }}{{ cri.criteria_id }}_btn" ><img src="img/compare.png" class="comp_img"></a>\
                             <div class="popover_content">\
                                 <div id="{{ cri.criteria_id }}_title">{{ cri.criteria_caption }}</div>                                    \
                                 <div id="{{ EmpEvaluation.employee_id }}_{{ cri.criteria_id }}_content">\
@@ -91,15 +91,15 @@
                         }
                     }
 
-                    $('.' + scope.EmpEvaluation.employee_id + '_btn').popover({
+                    $('.' + scope.EmpEvaluation.employee_id + scope.cri.criteria_id + '_btn').popover({
                         html: true,
                         trigger: 'hover',
                         title: function () {
-                            var cric = parseInt(scope.cri.criteria_id) - 1;
+                            var cric = parseInt(scope.cri.criteria_id);
                             return $('#' + cric + '_title').html();
                         },
                         content: function () {
-                            var cric = parseInt(scope.cri.criteria_id) - 1;
+                            var cric = parseInt(scope.cri.criteria_id);
                             return $('#' + scope.EmpEvaluation.employee_id + '_' + cric + '_content').html();
                         }
                     });
