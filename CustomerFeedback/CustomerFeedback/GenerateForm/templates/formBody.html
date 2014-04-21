@@ -62,11 +62,10 @@
 
 
             <div class="MainCri clearfix">
-                <h4 class="criterias">Criterias</h4>
+                <h4 class="criterias">Criteria</h4>
                 <div class="wrap4">
                     <div ng-repeat="cri in EmpEvaluation.rating" class="singleCriteria col1" ng-if="$index <= devideFactor">
                         <!-- generating criteria liat -->
-
                         <div class="element1">
                             <div class="popover_compare singleCricInline clearfix">
                                 <div ng-switch on="cri.optional">
@@ -111,17 +110,17 @@
                                                         </label>
 
                                                     </div>
-                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Add a comment" class="textComment" ng-change="stateIndicate()"></textarea>
+                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Mandatory comment is required for scores below 3" ng-change="stateIndicate()" ng-class="(cri.comments=='') ? 'textCommentBlank' : 'textCommentFill'"></textarea>
                                                  </div>
                                                 <div ng-if="cri.rating.index>2">
                                                     <div>
                                                         <!--tooltip-placement="right" tooltip="You have additional comments!"-->
                                                         <label class="additionalComment">
-                                                            <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional commnets" class="showCommentBox" />
+                                                            <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional comments" class="showCommentBox" />
                                                             Additional Comments
                                                         </label>
                                                     </div>
-                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-show="showCommentBox"></textarea>
+                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Add any comment" class="textCommentFill" ng-show="showCommentBox"></textarea>
                                                  </div>
                                             </div>
                                         </div>
@@ -191,17 +190,17 @@
                                                         </label>
 
                                                     </div>
-                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Add a comment" class="textComment" ng-change="stateIndicate()"></textarea>
+                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Mandatory comment is required for scores below 3" ng-change="stateIndicate()" ng-class="(cri.comments=='') ? 'textCommentBlank' : 'textCommentFill'"></textarea>
                                                  </div>
                                                 <div ng-if="cri.rating.index>2">
                                                     <div>
                                                         <!--tooltip-placement="right" tooltip="You have additional comments!"-->
                                                         <label class="additionalComment">
-                                                            <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional commnets" class="showCommentBox" />
+                                                            <input type="checkbox" ng-model="showCommentBox" ng-click="showCommentBox=!showCommentBox" title="Additional comments" class="showCommentBox" />
                                                             Additional Comments
                                                         </label>
                                                     </div>
-                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Any comments" class="textComment" ng-show="showCommentBox"></textarea>
+                                                    <textarea id={{EmpEvaluation.evaluation_id}}{{cri.criteria_caption}} ng-model="cri.comments" placeholder="Add any comment" class="textCommentFill" ng-show="showCommentBox"></textarea>
                                                  </div>
                                             </div>
                                         </div>

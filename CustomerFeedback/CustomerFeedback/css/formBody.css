@@ -13,13 +13,7 @@
     border-right:1px solid #ECECEC;
     border-top:1px solid #ECECEC;
 }
-.singleCriteria textarea{
-    color:#000000;
-    padding:7px;
-    height:auto;
-    border:1px solid #cacaca !important;
-    box-shadow:none !important;
-}
+
 .singleCriteria select{
     width:374px;
     border-radius:0;
@@ -103,6 +97,24 @@ select[multiple], select[size] {
 .textComment{
     width: 360px !important;
     border-radius:3px;
+    color:#000000;
+    padding:7px;
+    height:auto;
+    border:1px solid #cacaca !important;
+    box-shadow:none !important;
+}
+
+.textCommentFill{
+    width: 360px !important;
+    border-radius:3px;
+    border: 1px solid #cacaca !important;
+}
+
+.textCommentBlank{
+    width: 360px !important;
+    border-radius:3px;
+    border:1px solid #FF8E8E !important;
+    color:
 }
 
 #nameList {
