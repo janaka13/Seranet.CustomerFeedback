@@ -68,15 +68,15 @@
                         <!-- generating criteria liat -->
                         <div class="element1">
                             <div class="popover_compare singleCricInline clearfix">
-                                <div ng-switch on="cri.optional">
+                                <div class="criteriaName" ng-switch on="cri.optional">
                                     <div class="criteria_name cricTitleField" ng-switch-when="0">
-                                        {{ cri.criteria_caption }}*
+                                        {{ cri.criteria_caption }} *
                                     </div>
                                     <div class="criteria_name cricTitleField" ng-switch-when="1">
                                         {{ cri.criteria_caption }}
                                     </div>
                                 </div>
-                                <div ng-switch on="cri.criteria_type" class="cricTitleField">
+                                <div ng-switch on="cri.criteria_type" class="cricTitleField popImg">
                                     <div class="popover_data">
                                         <pop-over></pop-over>
                                     </div>
@@ -149,15 +149,15 @@
 
                         <div class="element1">
                             <div class="popover_compare singleCricInline clearfix">
-                                <div ng-switch on="cri.optional">
+                                <div class="criteriaName" ng-switch on="cri.optional">
                                     <div class="criteria_name cricTitleField" ng-switch-when="0">
-                                        {{ cri.criteria_caption }}*
+                                        {{ cri.criteria_caption }} *
                                     </div>
                                     <div class="criteria_name cricTitleField" ng-switch-when="1">
                                         {{ cri.criteria_caption }}
                                     </div>
                                 </div>
-                                <div ng-switch on="cri.criteria_type" class="cricTitleField">
+                                <div ng-switch on="cri.criteria_type" class="cricTitleField popImg">
                                     <div class="popover_data">
                                         <pop-over></pop-over>
                                     </div>

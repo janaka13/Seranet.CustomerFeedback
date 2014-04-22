@@ -133,6 +133,10 @@ select[multiple], select[size] {
     display:none;
 }
 
+.popover .popover-title {
+    font-weight: bold;
+}
+
 .comp_img {
   
 }
@@ -200,7 +204,7 @@ table {
 }
 
 .selectdiv{
-border:1px solid #494646; 
+border:1px solid #4982aa; 
 -webkit-border-radius: 3px; 
 -moz-border-radius: 3px;
 border-radius: 3px;
@@ -210,15 +214,15 @@ padding: 10px 10px 10px 10px;
 text-decoration:none; 
 display:inline-block;
 font-weight:normal; 
-color: #000000;
-background:#cacaca;
+color: #ffffff;
+background:#599FD0;
  width:180px;
  text-align: center;
 }
 
 .selectdiv:hover{
  border:1px solid #a4a4a4;
- background-color: #a4a4a4; 
+ background-color: #4982aa; 
  width:180px;
  text-align: center;
 }
@@ -242,7 +246,7 @@ background:#ffffff;
 
 .deselectdiv:hover{
  border:1px solid #a4a4a4;
- background-color: #ECECEC; 
+ background-color: #a4a4a4; 
  width:180px;
  text-align: center;
 }
@@ -250,6 +254,7 @@ background:#ffffff;
 
 .emp_fullName {
     white-space: initial;
+    margin-bottom:5px;
 }
 
 .nameEmp h3{
@@ -340,5 +345,18 @@ background:#ffffff;
 }
 .progress-bar {
     box-shadow: none;
-    background-color: #599fd0;
+    background-color: #ffd800;
+}
+
+/* Green Color */
+.progress-bar-green {
+    background:#13F011
+}
+
+/* 22.04.2014 */
+.criteriaName {
+    float:left;
+}
+.popImg {
+    float:right;
 }
