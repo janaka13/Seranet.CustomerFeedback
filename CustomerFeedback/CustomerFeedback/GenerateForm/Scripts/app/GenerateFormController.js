@@ -93,7 +93,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                             .then(function (data) {
 
                                 var singleRating = [];
-
+                                
                                 data.results.forEach(function (item) {
                                     item.entityAspect.propertyChanged.subscribe(function () {
 
@@ -171,7 +171,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
 
                     var singleRating = [];
-                    
+
 
                     if ($scope.Ratings.length === $scope.employeeListData.length) {
                         $scope.DataLoaded = true;
@@ -179,7 +179,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                         $scope.$apply();
                     }
 
-                    
+
                     function addFailed() {
 
                     }
@@ -188,21 +188,21 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
                     }
 
-                    
+
                 }
 
                 $scope.$apply();
-                
+
             })
             .fail(function (data) {
                 logger.error("Error Occured in Loading Data");
             });
-                
+
                 $scope.$apply();
-                
+
             })
             .fail(function (data) {
-                
+
                 logger.error("Error Occured in Loading Data");
             });
 
@@ -214,7 +214,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
     $scope.stateIndicate = function () {
 
         /*Rating state 0 : still not even touched,state 1 : middle ,state 2 : finish */
-        if($scope.popoverUpdate)
+        if ($scope.popoverUpdate)
             $scope.popoverUpdate = false;
         else
             $scope.popoverUpdate = true;
@@ -269,7 +269,12 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             }
 
             document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).style.width = (completed / all * 100) + "%";
-
+            if (completed == all) {
+                document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).className = "progress-bar-green";
+            }
+            else {
+                document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).className = "progress-bar";
+            }
 
             if (!$scope.AssignClass) {
                 if (eval_run == 0) {
@@ -520,6 +525,6 @@ app.generateForm.controller('SingleCell', function ($scope, $timeout, $http, sha
             }
         }
     }
-    
+
     $(document).ready($scope.stateIndicate());
 });

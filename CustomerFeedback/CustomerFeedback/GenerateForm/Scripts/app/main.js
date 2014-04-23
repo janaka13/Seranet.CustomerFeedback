@@ -94,6 +94,7 @@
                     $('.' + scope.EmpEvaluation.employee_id + scope.cri.criteria_id + '_btn').popover({
                         html: true,
                         trigger: 'hover',
+                        placement: 'top',
                         title: function () {
                             var cric = parseInt(scope.cri.criteria_id);
                             return $('#' + cric + '_title').html();
