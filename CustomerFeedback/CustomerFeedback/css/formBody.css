@@ -137,6 +137,14 @@ select[multiple], select[size] {
     font-weight: bold;
 }
 
+.popover{
+    max-width:10000px !important;
+}
+
+.popover .popover-content {
+    white-space: nowrap;
+}
+
 .comp_img {
   
 }
@@ -350,7 +358,8 @@ background:#ffffff;
 
 /* Green Color */
 .progress-bar-green {
-    background:#13F011
+    box-shadow: none;
+    background:#13F011;
 }
 
 /* 22.04.2014 */
