@@ -273,7 +273,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
                     block();
                     logger.info("Sending mails");
                     for (j = 0; j < $scope.mailstoSend.length; j++) {
-                        var url = window.location.origin + "/FeedBackForm.html?app_id=" + ($scope.mailstoSend[j].appraisal_id);
+                        var url = window.location.origin + "/CustomerFeedback/FeedBackForm.html?app_id=" + ($scope.mailstoSend[j].appraisal_id);
 
                         dataserviceRequests.sendMail($scope.mailstoSend[j].customermail,
                             ("Appraisals for " + $scope.mailstoSend[j].project + " -" + $scope.mailstoSend[j].type + "," + $scope.mailstoSend[j].year),
