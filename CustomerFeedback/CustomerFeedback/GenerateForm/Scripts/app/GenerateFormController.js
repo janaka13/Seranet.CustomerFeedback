@@ -13,7 +13,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
     $scope.employeeListData = [];
     $scope.Ratings = [];
     $scope.AssignClass = false;
-
+    $scope.completeForm = false;
     $scope.empNameList;
     $scope.compareArray = [];
 
@@ -218,7 +218,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             $scope.popoverUpdate = false;
         else
             $scope.popoverUpdate = true;
-
+        $scope.completedEvals = 0;
 
         if ($scope.isSubmitable) {
             $scope.isSubmitable = false;
@@ -270,6 +270,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
             document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).style.width = (completed / all * 100) + "%";
             if (completed == all) {
+                $scope.completedEvals++;
                 document.getElementById("progress_" + $scope.Ratings[eval_run].evaluation_id).className = "progress-bar-green";
             }
             else {
@@ -309,6 +310,13 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
             }
 
+        }
+
+        if ($scope.completedEvals == $scope.Ratings.length) {
+            $scope.completeForm = true;
+        }
+        else {
+            $scope.completeForm = false;
         }
         $scope.$apply();
     }
@@ -394,19 +402,19 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 $scope.employeeListData = [];
                 $scope.empNameList;
                 $scope.compareArray = [];
-
                 $scope.RatingList = [];
                 $scope.DataLoaded = false;
                 $scope.apploadCount++;
                 $scope.temp.AppraisalState = "2";
                 $scope.mytempvar = 0;
+                location.reload();
             })
             .fail(function () {
                 logger.error("Error Occured in Saving");
             });
         }
 
-        if ($scope.isSubmitable) {
+        if ($scope.completeForm) {
             document.getElementById("save").disabled = false;
             document.getElementById("save").className = "yellow";
         }
