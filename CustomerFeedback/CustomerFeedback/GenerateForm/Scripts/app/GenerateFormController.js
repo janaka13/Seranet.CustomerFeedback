@@ -407,7 +407,9 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 $scope.apploadCount++;
                 $scope.temp.AppraisalState = "2";
                 $scope.mytempvar = 0;
-                location.reload();
+                $scope.AssignClass = false;
+                $scope.getAllAppraisals();
+                $scope.stateIndicate();
             })
             .fail(function () {
                 logger.error("Error Occured in Saving");
