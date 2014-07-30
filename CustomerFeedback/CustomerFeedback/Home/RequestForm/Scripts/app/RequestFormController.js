@@ -46,9 +46,9 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
         { durationType: 'Mid Year' }];
 
     
-    employeeURL = "http://99xtechnology.lk/services/api/employees";
-    projectURL = "http://99xtechnology.lk/services/api/Projects";
-    customerURL = "http://99xtechnology.lk/services/api/Contacts";
+    employeeURL = "http://99xt.lk/services/api/employees";
+    projectURL = "http://99xt.lk/services/api/Projects";
+    customerURL = "http://99xt.lk/services/api/Contacts";
 
     //called when the add button clicked to add new employee
     $scope.addEmployees = function () {
