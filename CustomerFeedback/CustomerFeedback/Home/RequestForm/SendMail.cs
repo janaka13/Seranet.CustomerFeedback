@@ -21,7 +21,7 @@ namespace CustomerFeedback.RequestForm
             msg.Body = message;
             SmtpClient client = new SmtpClient("mail.99xtechnology.com", 25);
             client.Credentials = cred; 
-            client.EnableSsl = true;  
+           // client.EnableSsl = true;  
             client.Send(msg);
             Console.WriteLine("Done");
         }
