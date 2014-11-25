@@ -277,7 +277,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
 
                         dataserviceRequests.sendMail($scope.mailstoSend[j].customermail,
                             ("Appraisals for " + $scope.mailstoSend[j].project + " -" + $scope.mailstoSend[j].type + "," + $scope.mailstoSend[j].year),
-                            ($scope.mailText + "\n" + url + "\nvalidation key: " + $scope.mailstoSend[j].validate_key));
+                            ($scope.mailText + "\n" + url + "\nValidation Key: " + $scope.mailstoSend[j].validate_key));
 
                     }
 
