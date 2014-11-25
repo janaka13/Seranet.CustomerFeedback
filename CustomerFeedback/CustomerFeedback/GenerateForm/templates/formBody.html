@@ -232,12 +232,15 @@
 
 
         <div class="text-right submitForm mainContent">
+           
             <form data-ng-submit="submit()">
-                <input class="gray" id="save" type="button" ng-click="save()" value="Submit" disabled />
+                <span style="font-style: italic; font-weight:bold; color: red"> Complete all mandatory fields(*) and save information to enable Submit </span>
                 <input class="yellow" id="submit" type="button" value="Save" ng-click="saveToDB()" />
+                <input class="gray" id="save" type="button" ng-click="save()" value="Submit" disabled />
+
             </form>
-             <div style="font-style: italic; font-weight:bold" > Complete all mandatory fields and save information to enable Submit </div>
-        </div>
+        
+         </div>
 
 
 
