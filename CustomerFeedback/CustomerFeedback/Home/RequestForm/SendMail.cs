@@ -19,7 +19,7 @@ namespace CustomerFeedback.RequestForm
             msg.From = new MailAddress(System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
             msg.Subject = subject;
             msg.Body = message;
-            SmtpClient client = new SmtpClient("smtp.gmail.com", 25);
+            SmtpClient client = new SmtpClient("mail.99xtechnology.com", 25);
             client.Credentials = cred; 
             client.EnableSsl = true;  
             client.Send(msg);
