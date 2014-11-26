@@ -22,7 +22,6 @@ namespace CustomerFeedback.RequestForm
             msg.Subject = subject;
             msg.Body = message;
 
-            //System.IO.File.WriteAllText(@"C:\\infor.txt", " User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
             SmtpClient client = new SmtpClient("mail.99xtechnology.com", 25);
             client.Credentials = cred;
             Console.WriteLine(" User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
