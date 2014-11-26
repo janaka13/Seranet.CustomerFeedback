@@ -12,18 +12,22 @@ namespace CustomerFeedback.RequestForm
     {
         public void send(string address, string subject, string message)
         {
-            NetworkCredential cred = new NetworkCredential( "seranet\\hr"
-                , System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword"));
+           
+            NetworkCredential cred = new NetworkCredential(System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName")
+                          , System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword"));
+
             MailMessage msg = new MailMessage();
             msg.To.Add(address);
-            msg.From = new MailAddress( "hr@99x.lk");
+            msg.From = new MailAddress(System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
             msg.Subject = subject;
             msg.Body = message;
+
+            System.IO.File.WriteAllText(@"C:\\infor.txt", " User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
             SmtpClient client = new SmtpClient("mail.99xtechnology.com", 25);
-            client.Credentials = cred; 
-           // System.IO.File.WriteAllText(@"C:\\infor.txt", " User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
-         
-           // client.EnableSsl = true;  
+            client.Credentials = cred;
+            Console.WriteLine(" User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
+           
+            // client.EnableSsl = true;  
             client.Send(msg);
             Console.WriteLine("Done");
         }
