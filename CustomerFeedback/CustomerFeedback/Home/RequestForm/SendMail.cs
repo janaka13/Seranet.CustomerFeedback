@@ -12,7 +12,7 @@ namespace CustomerFeedback.RequestForm
     {
         public void send(string address, string subject, string message)
         {
-            NetworkCredential cred = new NetworkCredential( (System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress")
+            NetworkCredential cred = new NetworkCredential(System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName")
                 , System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword"));
             MailMessage msg = new MailMessage();
             msg.To.Add(address);
