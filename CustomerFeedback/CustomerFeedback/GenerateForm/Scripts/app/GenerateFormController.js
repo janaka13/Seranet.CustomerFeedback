@@ -444,7 +444,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
         }
 
-        logger.info("Appraisal Saved Temporaly");
+        logger.info("Appraisal Saved");
 
     }
 
