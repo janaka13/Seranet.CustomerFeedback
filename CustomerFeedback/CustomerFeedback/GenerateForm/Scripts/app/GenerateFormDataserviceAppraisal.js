@@ -1,4 +1,4 @@
-﻿/* dataservice: data access and model management layer */
+/* dataservice: data access and model management layer */
 app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
 
     breeze.config.initializeAdapterInstance("modelLibrary", "backingStore", true);
@@ -45,7 +45,8 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
         isValidAppraisal: isValidAppraisal,
         getRatingData: getRatingData,
         addToCache: addToCache,
-        saveChangesNew: saveChangesNew
+        saveChangesNew: saveChangesNew,
+        doFetchMetadata: doFetchMetadata
 
     };
 
@@ -76,6 +77,19 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
         return managerRating.executeQuery(getRatings_q);
     }
 
+    function doFetchMetadata() {
+        var deferred = Q.defer();
+        if (managerDB.metadataStore.isEmpty()) {
+            managerDB.fetchMetadata().then(function (data) {
+                managerDB.metadataStore.importMetadata(data);
+                deferred.resolve(true);
+            })
+        }
+        else {
+            deferred.resolve(true);
+        }
+        return deferred.promise;
+    }
 
     function getURLParameter(name) {
         return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
