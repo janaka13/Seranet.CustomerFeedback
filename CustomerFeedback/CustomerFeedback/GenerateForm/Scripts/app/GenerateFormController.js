@@ -1,4 +1,4 @@
-﻿var formCells = [];//only id arra
+var formCells = [];//only id arra
 var formCellArray = [];//all details
 app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $http, sharedProperties) {
     var removeItem = breeze.core.arrayRemoveItem;
@@ -318,7 +318,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
         else {
             $scope.completeForm = false;
         }
-        $scope.$apply();
+       // $scope.$apply();
     }
 
 
@@ -370,50 +370,53 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
         }
 
         if ($scope.mytempvar === 1) {
+            dSAppraisal.doFetchMetadata()
+            .then(function (data) {
+                for (var eval_run = 0; eval_run < $scope.Ratings.length; eval_run++) {
 
-            for (var eval_run = 0; eval_run < $scope.Ratings.length; eval_run++) {
+                    for (var cri_run = 0; cri_run < $scope.Ratings[eval_run].rating.length; cri_run++) {
 
-                for (var cri_run = 0; cri_run < $scope.Ratings[eval_run].rating.length; cri_run++) {
+                        var tempIndex = -1;
+                        if ($scope.Ratings[eval_run].rating[cri_run].rating.index !== "") {
+                            tempIndex = $scope.Ratings[eval_run].rating[cri_run].rating.index;
+                        }
 
-                    var tempIndex = -1;
-                    if ($scope.Ratings[eval_run].rating[cri_run].rating.index !== "") {
-                        tempIndex = $scope.Ratings[eval_run].rating[cri_run].rating.index;
+                        var item = dSAppraisal.createRating({
+                            evaluation_id: $scope.Ratings[eval_run].evaluation_id,
+                            criteria_id: $scope.Ratings[eval_run].rating[cri_run].criteria_id,
+                            rating: tempIndex,
+                            comments: $scope.Ratings[eval_run].rating[cri_run].comments
+                        });
+
+                        if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && $scope.Ratings[eval_run].rating[cri_run].rating.index === -1) {
+                            $scope.isSubmitable = false;
+                        }
+                        if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments === "") {
+                            $scope.isSubmitable = false;
+                        }
+
                     }
-
-                    var item = dSAppraisal.createRating({
-                        evaluation_id: $scope.Ratings[eval_run].evaluation_id,
-                        criteria_id: $scope.Ratings[eval_run].rating[cri_run].criteria_id,
-                        rating: tempIndex,
-                        comments: $scope.Ratings[eval_run].rating[cri_run].comments
-                    });
-
-                    if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 1 && $scope.Ratings[eval_run].rating[cri_run].rating.index === -1) {
-                        $scope.isSubmitable = false;
-                    }
-                    if ($scope.Ratings[eval_run].rating[cri_run].optional !== 1 && $scope.Ratings[eval_run].rating[cri_run].criteria_type === 2 && $scope.Ratings[eval_run].rating[cri_run].comments === "") {
-                        $scope.isSubmitable = false;
-                    }
-
                 }
-            }
-            dSAppraisal.saveChangesNew().then(function () {
-                dSAppraisal.invalidateAppraisal($scope.employeeListData[0].appraisal_id, $scope.temp.AppraisalState);
-                $scope.Ratings = [];
-                $scope.employeeListData = [];
-                $scope.empNameList;
-                $scope.compareArray = [];
-                $scope.RatingList = [];
-                $scope.DataLoaded = false;
-                $scope.apploadCount++;
-                $scope.temp.AppraisalState = "2";
-                $scope.mytempvar = 0;
-                $scope.AssignClass = false;
-                $scope.getAllAppraisals();
-                $scope.stateIndicate();
+                dSAppraisal.saveChangesNew().then(function () {
+                    dSAppraisal.invalidateAppraisal($scope.employeeListData[0].appraisal_id, $scope.temp.AppraisalState);
+                    $scope.Ratings = [];
+                    $scope.employeeListData = [];
+                    $scope.empNameList;
+                    $scope.compareArray = [];
+                    $scope.RatingList = [];
+                    $scope.DataLoaded = false;
+                    $scope.apploadCount++;
+                    $scope.temp.AppraisalState = "2";
+                    $scope.mytempvar = 0;
+                    $scope.AssignClass = false;
+                    $scope.getAllAppraisals();
+                    $scope.stateIndicate();
+                })
+                .fail(function () {
+                    logger.error("Error Occured in Saving");
+                });
             })
-            .fail(function () {
-                logger.error("Error Occured in Saving");
-            });
+            
         }
 
         if ($scope.completeForm) {
