@@ -331,6 +331,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
     var hasChanged = false;
     var isnewApp = false;
+	
     $scope.saveToDB = function () {
         $scope.isSubmitable = true;
         if ($scope.mytempvar !== 1) {
@@ -448,6 +449,7 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
     }
 
+	
     $scope.save = function () {
         logger.success("Saved Successfully");
         dSAppraisal.invalidateAppraisal(getURLParameter('app_id'), $scope.temp.AppraisalState);
@@ -463,6 +465,13 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
     }
 
+	$scope.automatedSaveFunction = function () {
+        $scope.saveToDB();
+        setTimeout($scope.automatedSaveFunction,30000)
+    }
+	
+	setTimeout($scope.automatedSaveFunction(),30000);
+	
     $scope.changeRating = function (evaluationId) {
         for (var i = 0; i < $scope.Ratings.length; i++) {
             if ($scope.Ratings[i].evaluation_id === evaluationId) {
@@ -540,4 +549,5 @@ app.generateForm.controller('SingleCell', function ($scope, $timeout, $http, sha
     }
 
     $(document).ready($scope.stateIndicate());
+	//setTimeout(automatedSaveFunction, 30000);
 });
