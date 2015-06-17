@@ -22,7 +22,7 @@ namespace CustomerFeedback.RequestForm
             msg.Subject = subject;
             msg.Body = message;
 
-            SmtpClient client = new SmtpClient("mail.99xtechnology.com", 25);
+            SmtpClient client = new SmtpClient(System.Environment.GetEnvironmentVariable("EmailServerAddress"), 25);
             client.Credentials = cred;
             Console.WriteLine(" User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
            
