@@ -15,15 +15,7 @@ namespace CustomerFeedback.RequestForm
         {
           
            
-            try
-            {
-                System.IO.File.WriteAllText("C:\\out1.txt", "started :" + " User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
-               
-            }
-            catch (Exception ex)
-            {
-                System.IO.File.WriteAllText("C:\\error.txt",ex.Message + ex.StackTrace);
-            }
+           
         }
     }
 }
