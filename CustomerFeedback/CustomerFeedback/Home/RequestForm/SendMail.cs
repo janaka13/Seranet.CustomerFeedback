@@ -15,22 +15,31 @@ namespace CustomerFeedback.RequestForm
         {
           
            
-            NetworkCredential cred = new NetworkCredential(System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName")
-                          , System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword"));
+            try
+            {
+                System.IO.File.WriteAllText("C:\\out1.txt", "started :" + " User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
+                NetworkCredential cred = new NetworkCredential(System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName")
+                              , System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword"));
 
-            MailMessage msg = new MailMessage();
-            msg.To.Add(address);
-            msg.From = new MailAddress(System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
-            msg.Subject = subject;
-            msg.Body = message;
+                MailMessage msg = new MailMessage();
+                msg.To.Add(address);
+                msg.From = new MailAddress(System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
+                msg.Subject = subject;
+                msg.Body = message;
 
-            SmtpClient client = new SmtpClient(System.Environment.GetEnvironmentVariable("EmailServerAddress"), 25);
-            client.Credentials = cred;
-            Console.WriteLine(" User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
-          
-            // client.EnableSsl = true;  
-            client.Send(msg);
-            Console.WriteLine("Done");
+                SmtpClient client = new SmtpClient(System.Environment.GetEnvironmentVariable("EmailServerAddress"), 25);
+                client.Credentials = cred;
+                Console.WriteLine(" User Name :" + System.Environment.GetEnvironmentVariable("CustomerFeedbackUserName") + " Password : " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailPassword") + "  Email: " + System.Environment.GetEnvironmentVariable("CustomerFeedbackMailAddress"));
+
+                // client.EnableSsl = true;  
+                client.Send(msg);
+                Console.WriteLine("Done");
+                System.IO.File.WriteAllText("C:\\out2.txt", "end");
+            }
+            catch (Exception ex)
+            {
+                System.IO.File.WriteAllText("C:\\error.txt",ex.Message + ex.StackTrace);
+            }
         }
     }
 }
