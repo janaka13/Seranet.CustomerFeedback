@@ -36,7 +36,9 @@
 
     $scope.search = function () {
         $scope.loading = "yes";
-        $scope.$apply();
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
         $scope.currentPage = 0;
         //logger.info("Loading data");
         $scope.appraisals = [];
@@ -46,7 +48,9 @@
     
     fillTable = function () {
         $scope.loading = "yes";
-        $scope.$apply();
+        if (!$scope.$$phase) {
+            $scope.$apply();
+        }
         var projContains = "";
         if ($scope.projectText != null && $scope.projectText != "")
             projContains = $scope.projectText;

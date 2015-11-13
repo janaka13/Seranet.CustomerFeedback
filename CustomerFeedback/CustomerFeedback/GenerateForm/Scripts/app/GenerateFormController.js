@@ -1,6 +1,6 @@
 var formCells = [];//only id arra
 var formCellArray = [];//all details
-app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $http, sharedProperties) {
+app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $http, sharedProperties, $window) {
     var removeItem = breeze.core.arrayRemoveItem;
     var instance = breeze.config.initializeAdapterInstance("ajax", "angular", true);
 
@@ -367,7 +367,19 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
         }
 
         if (hasChanged) {
-            dSAppraisal.saveChanges();
+            logger.info("Saving changes");
+            dSAppraisal.saveChanges(function(result) {
+                if (result === true) {
+                    logger.success("Appraisal changes saved successfully");
+                }
+                else {
+                    logger.error("Error in saving changes");
+                    $timeout(function() {
+                        alert("An error occurred when saving the latest changes. Please click OK to refresh the page.");
+                        $window.location.reload();
+                    }, 1000);
+                }
+            });
         }
 
         if ($scope.mytempvar === 1) {
@@ -412,9 +424,14 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                     $scope.AssignClass = false;
                     $scope.getAllAppraisals();
                     $scope.stateIndicate();
+                    logger.success("Appraisal changes saved successfully");
                 })
                 .fail(function () {
-                    logger.error("Error Occured in Saving");
+                    logger.error("Error in saving changes");
+                    $timeout(function () {
+                        alert("An error occurred when saving the latest changes. Please click OK to refresh the page.");
+                        $window.location.reload();
+                    }, 1000);
                 });
             })
             
@@ -445,13 +462,12 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
             return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search) || [, ""])[1].replace(/\+/g, '%20')) || null;
         }
 
-        logger.info("Appraisal Saved");
-
+        //logger.info("Appraisal Saved");
     }
 
 	
     $scope.save = function () {
-        logger.success("Saved Successfully");
+        logger.success("Successfully submitted");
         dSAppraisal.invalidateAppraisal(getURLParameter('app_id'), $scope.temp.AppraisalState);
         $scope.temp.templateT = { name: 'formFilled.html', url: 'GenerateForm/templates/formFilled.html' };
 
@@ -467,10 +483,10 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
 
 	$scope.automatedSaveFunction = function () {
         $scope.saveToDB();
-        setTimeout($scope.automatedSaveFunction,30000)
+        setTimeout($scope.automatedSaveFunction,10000)
     }
 	
-	setTimeout($scope.automatedSaveFunction(),30000);
+	setTimeout($scope.automatedSaveFunction(),10000);
 	
     $scope.changeRating = function (evaluationId) {
         for (var i = 0; i < $scope.Ratings.length; i++) {
@@ -478,7 +494,9 @@ app.generateForm.controller('GenerateFormCtrl', function ($scope, $timeout, $htt
                 $scope.EmpEvaluation = $scope.Ratings[i];
                 document.getElementById("empName_" + $scope.Ratings[i].evaluation_id).className = "selectdiv";
                 $scope.stateIndicate();
-                $scope.$apply();
+                if (!$scope.$$phase) {
+                    $scope.$apply();
+                }
             }
             else {
                 document.getElementById("empName_" + $scope.Ratings[i].evaluation_id).className = "deselectdiv";

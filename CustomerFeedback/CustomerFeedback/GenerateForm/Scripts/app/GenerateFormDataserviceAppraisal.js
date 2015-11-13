@@ -144,7 +144,7 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
 
 
 
-    function saveChanges() {
+    function saveChanges(callback) {
         return managerRating.saveChanges()
             .then(saveSucceeded)
             .fail(saveFailed);
@@ -152,6 +152,9 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
         function saveSucceeded(saveResult) {
             //logger.success("# Data " + saveResult.entities.length);
             //logger.log(saveResult);
+            if (callback) {
+                callback(true);
+            }
         }
 
         function saveFailed(error) {
@@ -172,13 +175,16 @@ app.GenerateFormDataserviceAppraisal = (function (breeze, logger) {
                          " You may have to restart the app.";
             }
 
-            logger.error("Error Occured in Saving");
+            //logger.error("Error Occured in Saving");
             // DEMO ONLY: discard all pending changes
             // Let them see the error for a second before rejecting changes
-            GenerateFormDataserviceAppraisal.$timeout(function () {
+            /*GenerateFormDataserviceAppraisal.$timeout(function () {
                 manager.rejectChanges();
             }, 1000);
-            throw error; // so caller can see it
+            throw error; // so caller can see it*/
+            if (callback) {
+                callback(false);
+            }
         }
     }
 
