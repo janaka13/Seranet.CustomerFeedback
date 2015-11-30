@@ -34,7 +34,7 @@ app.appfeedback.controller('RequestController', function ($scope, $timeout, $htt
     $scope.selectetProject = "";
     $scope.selectedDuration = "";
 
-    $scope.mailText = "Please spend some time to fill this appraisal";
+    $scope.mailText = "Customer feedback is an integral part of our annual performance appraisals. Please take a few minutes to give feedback on your team members";
 
     $scope.appraisalToSave;
     $scope.evaluationToSave;
